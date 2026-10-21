@@ -1,0 +1,662 @@
+[
+  {
+    "id": "foundation-1-001",
+    "en": "Your mission"
+  },
+  {
+    "id": "foundation-1-002",
+    "en": "Follow a payment through the economy without losing track of who owns an asset, who owes a debt, and who receives income. This is the starting point for every later region of the map."
+  },
+  {
+    "id": "foundation-1-003",
+    "en": "The five main groups"
+  },
+  {
+    "id": "foundation-1-004",
+    "en": "A <strong>household</strong> works, buys goods and services, saves, borrows, pays taxes, and owns assets. A <strong>business</strong> organizes production, hires people, sells output, and finances equipment and operations. <strong>Government</strong> collects revenue, provides public services, makes transfers, borrows, and sets rules. <strong>Financial institutions</strong> handle payments, extend credit, pool savings, insure risks, and help people trade financial claims. The <strong>rest of the world</strong> buys and sells goods, services, and assets across borders. A central bank belongs on this map too, but has a special role in the monetary and financial system."
+  },
+  {
+    "id": "foundation-1-005",
+    "en": "The same person can occupy several roles. You may be a worker, a consumer, a depositor, a borrower, and a shareholder. A policy can help one of these roles while making another more expensive. A higher interest rate may increase some savings income and increase the cost of a variable-rate loan at the same time."
+  },
+  {
+    "id": "foundation-1-006",
+    "en": "A flow is measured over time; a stock is measured at a moment"
+  },
+  {
+    "id": "foundation-1-007",
+    "en": "Your monthly salary is a <strong>flow</strong>. Your bank balance today is a <strong>stock</strong>. A government&#39;s annual deficit is a flow; outstanding public debt is a stock. A company&#39;s annual profit is a flow; its accumulated equity is a stock. Always ask, &quot;Per month or year, or at a particular date?&quot;"
+  },
+  {
+    "id": "foundation-1-008",
+    "en": "A <strong>balance sheet</strong> lists assets and liabilities at a moment in time. An asset is something owned or a claim with economic value. A liability is an obligation. Net worth, also called equity in a business, is the residual after liabilities are subtracted from assets."
+  },
+  {
+    "id": "foundation-1-009",
+    "en": "For a household with a bank deposit of 8,000, an apartment worth 200,000, and a mortgage of 150,000, the simplified balance sheet is:"
+  },
+  {
+    "id": "foundation-1-010",
+    "en": "Item"
+  },
+  {
+    "id": "foundation-1-011",
+    "en": "Amount in hypothetical currency units"
+  },
+  {
+    "id": "foundation-1-012",
+    "en": "Bank deposit"
+  },
+  {
+    "id": "foundation-1-013",
+    "en": "8,000"
+  },
+  {
+    "id": "foundation-1-014",
+    "en": "Apartment"
+  },
+  {
+    "id": "foundation-1-015",
+    "en": "200,000"
+  },
+  {
+    "id": "foundation-1-016",
+    "en": "Total assets"
+  },
+  {
+    "id": "foundation-1-017",
+    "en": "208,000"
+  },
+  {
+    "id": "foundation-1-018",
+    "en": "Mortgage liability"
+  },
+  {
+    "id": "foundation-1-019",
+    "en": "150,000"
+  },
+  {
+    "id": "foundation-1-020",
+    "en": "Net worth"
+  },
+  {
+    "id": "foundation-1-021",
+    "en": "58,000"
+  },
+  {
+    "id": "foundation-1-022",
+    "en": "An increase in the apartment&#39;s estimated value can raise net worth without producing cash to pay this month&#39;s bills. An asset sale can produce cash without creating new production. These distinctions will matter when you study credit, asset prices, and crises."
+  },
+  {
+    "id": "foundation-1-023",
+    "en": "Follow one salary"
+  },
+  {
+    "id": "foundation-1-024",
+    "en": "<strong>Original hypothetical example.</strong> A business receives 100,000 in monthly sales. It spends 40,000 on intermediate inputs, 35,000 on wages, 10,000 on rent and other operating costs, and has 15,000 remaining before financing costs, taxes, and any depreciation not already counted. That remaining amount is not necessarily final accounting profit, and it is not automatically cash available to shareholders."
+  },
+  {
+    "id": "foundation-1-025",
+    "en": "One worker receives 3,000 after relevant payroll deductions. They spend 1,800, make a 400 loan payment, and retain 800 in their bank account. The consumer spending becomes revenue somewhere else. The loan payment must be split between principal and interest: principal reduces a liability, while interest is the lender&#39;s income and the borrower&#39;s cost. The retained deposit is a household financial asset and a bank liability."
+  },
+  {
+    "id": "foundation-1-026",
+    "en": "This small story connects all five groups. Some inputs may be imported. Some revenue goes to taxes. The company may borrow to pay suppliers before customers pay it. The household may save through a pension fund. The economy is a network of payments, production, and claims."
+  },
+  {
+    "id": "foundation-1-027",
+    "en": "The map is not a fixed pile of money"
+  },
+  {
+    "id": "foundation-1-028",
+    "en": "Financial assets often have a counterpart: your deposit is the bank&#39;s liability, a bond is the issuer&#39;s debt, and a share is an ownership claim. Real assets such as buildings and machinery are different. Production and innovation can increase real output; exchanging claims can redistribute ownership and risk. Neither every transaction nor every gain represents an equal loss in real wealth for someone else."
+  },
+  {
+    "id": "foundation-1-029",
+    "en": "Use the Red Alert analogy to keep track of locations and connections. Real people have different information and objectives, economic rules can change, and outcomes are uncertain. Revealing a mechanism helps you ask better questions; it does not reveal the future."
+  },
+  {
+    "id": "foundation-1-030",
+    "en": "Check your understanding"
+  },
+  {
+    "id": "foundation-1-031",
+    "en": "Your deposit rises by 10,000 because you take out a 10,000 loan. Has your net worth immediately increased by 10,000?"
+  },
+  {
+    "id": "foundation-1-032",
+    "en": "Is an annual government deficit the same thing as the government&#39;s debt?"
+  },
+  {
+    "id": "foundation-1-033",
+    "en": "Can a household have positive net worth and still struggle to pay a bill?"
+  },
+  {
+    "id": "foundation-1-034",
+    "en": "Answer key"
+  },
+  {
+    "id": "foundation-1-035",
+    "en": "No. An asset and a liability rise together, before fees or other changes."
+  },
+  {
+    "id": "foundation-1-036",
+    "en": "No. A deficit measures a gap over a period; debt measures an outstanding stock. Other transactions and valuation changes can also affect debt."
+  },
+  {
+    "id": "foundation-1-037",
+    "en": "Yes. Valuable assets can be difficult or slow to turn into spendable money. Wealth and payment capacity are related but distinct."
+  },
+  {
+    "id": "foundation-2-001",
+    "en": "Your mission"
+  },
+  {
+    "id": "foundation-2-002",
+    "en": "Understand what the financial system ultimately connects to: people producing useful goods and services, receiving income, and deciding how to use it."
+  },
+  {
+    "id": "foundation-2-003",
+    "en": "What counts as a resource?"
+  },
+  {
+    "id": "foundation-2-004",
+    "en": "Production uses labor, land, energy, materials, machines, infrastructure, knowledge, and time. <strong>Capital</strong> here means produced assets used in production, such as equipment and software. Later, &quot;bank capital&quot; will mean a financial loss-absorbing buffer; the same word has different meanings in different contexts."
+  },
+  {
+    "id": "foundation-2-005",
+    "en": "<strong>Productivity</strong> measures output relative to inputs. A better machine, better organization, improved skills, or better software can allow more output per hour. Higher productivity can make higher incomes possible, but how the gains are distributed also depends on bargaining, competition, institutions, ownership, and prices. A worker&#39;s wage is not a direct, perfect measurement of their social value."
+  },
+  {
+    "id": "foundation-2-006",
+    "en": "A small workshop"
+  },
+  {
+    "id": "foundation-2-007",
+    "en": "<strong>Original hypothetical example.</strong> A workshop sells 100 stools at 20 each. Revenue is 2,000. Materials purchased from other businesses cost 800. The workshop&#39;s value added is 1,200. Suppose wages are 700 and equipment depreciation is 100. Gross operating surplus is 500 before depreciation; the remaining 400 after depreciation is net operating surplus in this simplified example. These are different ways the workshop&#39;s added value is allocated."
+  },
+  {
+    "id": "foundation-2-008",
+    "en": "If an improved process allows the same labor hours to produce 120 stools, potential output rises. Actual sales might still remain at 100 if demand is weak. Prices might fall if competitors also improve. Wages might rise, profits might rise, or the gain might be shared. &quot;Can produce more&quot; and &quot;will sell more&quot; are different claims."
+  },
+  {
+    "id": "foundation-2-009",
+    "en": "GDP: production, income, and expenditure"
+  },
+  {
+    "id": "foundation-2-010",
+    "en": "<strong>Gross domestic product</strong> measures production within an economy over a period. It can be viewed through the value added in production, the income generated, or the final expenditure on the output. Adding intermediate purchases and final sales together would count the same production repeatedly. Statistical estimates across the approaches can differ because measurement is imperfect. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://bea.gov/index.php/news/blog/2025-06-03/expenditures-approach-measuring-gdp\">BEA: the expenditure approach to GDP</a>."
+  },
+  {
+    "id": "foundation-2-011",
+    "en": "The familiar expenditure identity is <strong>GDP = consumption + investment + government purchases + exports − imports</strong>. &quot;Investment&quot; in this identity means items such as new equipment, structures, and inventories; buying an existing share is a financial transaction. Imports are subtracted because imported content may already appear in the other spending categories. The subtraction isolates domestic production; it does not establish that imports are economically harmful. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bea.gov/resources/methodologies/measuring-the-economy\">BEA: measuring the economy</a>."
+  },
+  {
+    "id": "foundation-2-012",
+    "en": "GDP is useful, but it is not a complete score for a society. It does not by itself tell you who receives the income, whether the environment is improving, how much unpaid work is done, or whether an expansion is sustainable. GDP, household purchasing power, company profits, and stock prices can move differently."
+  },
+  {
+    "id": "foundation-2-013",
+    "en": "Supply, demand, and adjustment"
+  },
+  {
+    "id": "foundation-2-014",
+    "en": "<strong>Demand</strong> concerns what buyers are willing and able to purchase at different prices. <strong>Supply</strong> concerns what sellers are willing and able to offer. A change in income, tastes, production costs, or technology can shift those relationships. Price and quantity outcomes depend on how readily buyers and suppliers adjust. Adjustment is often slow when capacity, housing, energy systems, or skilled labor cannot change quickly. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/supply-and-demand\">IMF: supply and demand</a>."
+  },
+  {
+    "id": "foundation-2-015",
+    "en": "If a café gains customers while its tables and staff remain fixed, it may first use idle capacity, then hire more staff, then raise prices or turn customers away. If electricity becomes more expensive, the same café faces a cost shock even without stronger demand. These cases can produce different combinations of output, prices, and profit. You will return to them when studying inflation and monetary policy."
+  },
+  {
+    "id": "foundation-2-016",
+    "en": "Saving and investment connect today to tomorrow"
+  },
+  {
+    "id": "foundation-2-017",
+    "en": "Saving is income not used for current consumption. Real investment creates or improves productive capacity. Financial institutions and markets help connect financing decisions to spending on those assets, but the connection is not mechanical. A firm invests when expected sales, financing conditions, uncertainty, and capacity needs make the project worthwhile. Credit can finance productive investment or purchases of existing assets; those uses have different economic consequences."
+  },
+  {
+    "id": "foundation-2-018",
+    "en": "Check your understanding"
+  },
+  {
+    "id": "foundation-2-019",
+    "en": "Why is the workshop&#39;s value added 1,200 rather than 2,000?"
+  },
+  {
+    "id": "foundation-2-020",
+    "en": "Does buying an existing company share count as new factory investment in GDP?"
+  },
+  {
+    "id": "foundation-2-021",
+    "en": "Does higher productivity guarantee that every worker&#39;s wage rises immediately?"
+  },
+  {
+    "id": "foundation-2-022",
+    "en": "Answer key"
+  },
+  {
+    "id": "foundation-2-023",
+    "en": "The materials contain value produced elsewhere. Subtracting intermediate inputs avoids double counting."
+  },
+  {
+    "id": "foundation-2-024",
+    "en": "No. The share is a financial ownership claim. A company&#39;s subsequent purchase of new productive equipment is a separate transaction."
+  },
+  {
+    "id": "foundation-2-025",
+    "en": "No. Demand, bargaining, competition, institutions, and distribution affect who receives the gain and when."
+  },
+  {
+    "id": "field-practice-001",
+    "en": "Use five questions for every headline"
+  },
+  {
+    "id": "field-practice-002",
+    "en": "<strong>What changed?</strong> Identify the variable, its units, and whether it is a level, a growth rate, a flow, or a stock."
+  },
+  {
+    "id": "field-practice-003",
+    "en": "<strong>Who is affected first?</strong> Name the household, business, bank, government, or overseas counterpart."
+  },
+  {
+    "id": "field-practice-004",
+    "en": "<strong>Through which channel?</strong> Follow prices, income, credit, balance sheets, trade, or expectations."
+  },
+  {
+    "id": "field-practice-005",
+    "en": "<strong>What conditions matter?</strong> Ask about timing, spare capacity, debt terms, currency exposure, market expectations, and policy responses."
+  },
+  {
+    "id": "field-practice-006",
+    "en": "<strong>What evidence would change the explanation?</strong> Look for data that distinguish competing mechanisms."
+  },
+  {
+    "id": "field-practice-007",
+    "en": "&quot;Interest rates fell, so stocks must rise&quot; skips several links. Which rates fell? Was the change expected? Did expected profits fall at the same time? Did risk premiums rise? A good map keeps the alternatives visible until the evidence narrows them."
+  },
+  {
+    "id": "field-practice-008",
+    "en": "A practical study route"
+  },
+  {
+    "id": "field-practice-009",
+    "en": "Session"
+  },
+  {
+    "id": "field-practice-010",
+    "en": "Focus"
+  },
+  {
+    "id": "field-practice-011",
+    "en": "Something you can explain afterward"
+  },
+  {
+    "id": "field-practice-012",
+    "en": "1"
+  },
+  {
+    "id": "field-practice-013",
+    "en": "Foundations 1–2"
+  },
+  {
+    "id": "field-practice-014",
+    "en": "Trace a salary and distinguish income, wealth, and production"
+  },
+  {
+    "id": "field-practice-015",
+    "en": "2–3"
+  },
+  {
+    "id": "field-practice-016",
+    "en": "Module 3"
+  },
+  {
+    "id": "field-practice-017",
+    "en": "Explain deposits, bank lending, settlement, and loan repayment"
+  },
+  {
+    "id": "field-practice-018",
+    "en": "4–5"
+  },
+  {
+    "id": "field-practice-019",
+    "en": "Module 4"
+  },
+  {
+    "id": "field-practice-020",
+    "en": "Separate fiscal policy from monetary policy and trace their channels"
+  },
+  {
+    "id": "field-practice-021",
+    "en": "6–7"
+  },
+  {
+    "id": "field-practice-022",
+    "en": "Module 5"
+  },
+  {
+    "id": "field-practice-023",
+    "en": "Identify financial claims and explain why prices respond to expectations"
+  },
+  {
+    "id": "field-practice-024",
+    "en": "8–9"
+  },
+  {
+    "id": "field-practice-025",
+    "en": "Module 6"
+  },
+  {
+    "id": "field-practice-026",
+    "en": "Read a currency quote and trace a global shock into local finances"
+  },
+  {
+    "id": "field-practice-027",
+    "en": "10–11"
+  },
+  {
+    "id": "field-practice-028",
+    "en": "Module 7"
+  },
+  {
+    "id": "field-practice-029",
+    "en": "Explain demand, supply, leverage, and crisis feedback loops"
+  },
+  {
+    "id": "field-practice-030",
+    "en": "12"
+  },
+  {
+    "id": "field-practice-031",
+    "en": "Capstone"
+  },
+  {
+    "id": "field-practice-032",
+    "en": "Connect all five main regions without treating a scenario as a forecast"
+  },
+  {
+    "id": "field-practice-033",
+    "en": "These are study sessions, not fixed calendar days. Pause whenever you cannot explain a mechanism in your own words. A second pass through a worked example is more useful than memorizing a definition you cannot apply."
+  },
+  {
+    "id": "field-practice-034",
+    "en": "Your field notebook"
+  },
+  {
+    "id": "field-practice-035",
+    "en": "Use this four-line format for a story you encounter: <strong>Observation → possible mechanism → alternative explanation → evidence to check</strong>. Separate what happened from why you think it happened. Write assumptions next to conclusions. Revisit the note when new information arrives."
+  },
+  {
+    "id": "glossary-001",
+    "en": "Term"
+  },
+  {
+    "id": "glossary-002",
+    "en": "Working meaning"
+  },
+  {
+    "id": "glossary-003",
+    "en": "Asset"
+  },
+  {
+    "id": "glossary-004",
+    "en": "Something owned or a claim with economic value"
+  },
+  {
+    "id": "glossary-005",
+    "en": "Liability"
+  },
+  {
+    "id": "glossary-006",
+    "en": "An obligation owed to another party"
+  },
+  {
+    "id": "glossary-007",
+    "en": "Equity / net worth"
+  },
+  {
+    "id": "glossary-008",
+    "en": "Assets minus liabilities"
+  },
+  {
+    "id": "glossary-009",
+    "en": "Cash flow"
+  },
+  {
+    "id": "glossary-010",
+    "en": "Cash received and paid over a period"
+  },
+  {
+    "id": "glossary-011",
+    "en": "Liquidity"
+  },
+  {
+    "id": "glossary-012",
+    "en": "Ability to make payments, or trade an asset without a large price impact; check the context"
+  },
+  {
+    "id": "glossary-013",
+    "en": "Solvency"
+  },
+  {
+    "id": "glossary-014",
+    "en": "Ability to meet obligations considering the value of assets and liabilities"
+  },
+  {
+    "id": "glossary-015",
+    "en": "Leverage"
+  },
+  {
+    "id": "glossary-016",
+    "en": "Using debt or other exposure-amplifying arrangements; definitions and ratios vary"
+  },
+  {
+    "id": "glossary-017",
+    "en": "Principal"
+  },
+  {
+    "id": "glossary-018",
+    "en": "The outstanding amount borrowed, excluding interest"
+  },
+  {
+    "id": "glossary-019",
+    "en": "Interest rate"
+  },
+  {
+    "id": "glossary-020",
+    "en": "The price of borrowing or return on lending, expressed relative to principal and time"
+  },
+  {
+    "id": "glossary-021",
+    "en": "Real interest rate"
+  },
+  {
+    "id": "glossary-022",
+    "en": "An interest rate adjusted for inflation; distinguish expected from realized inflation"
+  },
+  {
+    "id": "glossary-023",
+    "en": "Bank reserves"
+  },
+  {
+    "id": "glossary-024",
+    "en": "Central-bank money held by eligible institutions, used for settlement and other purposes"
+  },
+  {
+    "id": "glossary-025",
+    "en": "Bank capital"
+  },
+  {
+    "id": "glossary-026",
+    "en": "Funding and regulatory resources that can absorb losses, depending on the instrument and rules"
+  },
+  {
+    "id": "glossary-027",
+    "en": "Bond"
+  },
+  {
+    "id": "glossary-028",
+    "en": "A contractual debt claim with specified terms"
+  },
+  {
+    "id": "glossary-029",
+    "en": "Equity share"
+  },
+  {
+    "id": "glossary-030",
+    "en": "An ownership claim on a business"
+  },
+  {
+    "id": "glossary-031",
+    "en": "Yield"
+  },
+  {
+    "id": "glossary-032",
+    "en": "A return measure implied by price and cash flows; specify which yield"
+  },
+  {
+    "id": "glossary-033",
+    "en": "Duration"
+  },
+  {
+    "id": "glossary-034",
+    "en": "A measure used to describe a bond&#39;s interest-rate sensitivity"
+  },
+  {
+    "id": "glossary-035",
+    "en": "Risk premium"
+  },
+  {
+    "id": "glossary-036",
+    "en": "Extra expected compensation for bearing a particular risk"
+  },
+  {
+    "id": "glossary-037",
+    "en": "Inflation"
+  },
+  {
+    "id": "glossary-038",
+    "en": "An increase in a broad price level over time"
+  },
+  {
+    "id": "glossary-039",
+    "en": "Disinflation"
+  },
+  {
+    "id": "glossary-040",
+    "en": "A slowing inflation rate; the price level may still rise"
+  },
+  {
+    "id": "glossary-041",
+    "en": "Deflation"
+  },
+  {
+    "id": "glossary-042",
+    "en": "A decline in a broad price level"
+  },
+  {
+    "id": "glossary-043",
+    "en": "Fiscal policy"
+  },
+  {
+    "id": "glossary-044",
+    "en": "Decisions about government revenue, spending, and borrowing"
+  },
+  {
+    "id": "glossary-045",
+    "en": "Monetary policy"
+  },
+  {
+    "id": "glossary-046",
+    "en": "Central-bank decisions affecting monetary and financing conditions"
+  },
+  {
+    "id": "glossary-047",
+    "en": "Exchange rate"
+  },
+  {
+    "id": "glossary-048",
+    "en": "The price of one currency in terms of another; always specify quotation direction"
+  },
+  {
+    "id": "glossary-049",
+    "en": "Depreciation"
+  },
+  {
+    "id": "glossary-050",
+    "en": "A currency losing value relative to another, or an asset&#39;s accounting consumption; check the context"
+  },
+  {
+    "id": "glossary-051",
+    "en": "Current account"
+  },
+  {
+    "id": "glossary-052",
+    "en": "Cross-border trade in goods and services plus primary and secondary income"
+  },
+  {
+    "id": "glossary-053",
+    "en": "Balance of payments"
+  },
+  {
+    "id": "glossary-054",
+    "en": "A framework recording economic transactions between residents and nonresidents"
+  },
+  {
+    "id": "glossary-055",
+    "en": "Business cycle"
+  },
+  {
+    "id": "glossary-056",
+    "en": "Fluctuations in economic activity around a changing longer-run path"
+  },
+  {
+    "id": "glossary-057",
+    "en": "Productivity"
+  },
+  {
+    "id": "glossary-058",
+    "en": "Output relative to an input or combination of inputs"
+  },
+  {
+    "id": "glossary-059",
+    "en": "Nominal"
+  },
+  {
+    "id": "glossary-060",
+    "en": "Measured in current monetary terms"
+  },
+  {
+    "id": "glossary-061",
+    "en": "Real"
+  },
+  {
+    "id": "glossary-062",
+    "en": "Adjusted for prices, or referring to productive resources; check the context"
+  },
+  {
+    "id": "glossary-063",
+    "en": "GDP"
+  },
+  {
+    "id": "glossary-064",
+    "en": "A measure of domestic production over a period"
+  },
+  {
+    "id": "glossary-065",
+    "en": "Opportunity cost"
+  },
+  {
+    "id": "glossary-066",
+    "en": "The value of the next-best alternative forgone"
+  },
+  {
+    "id": "glossary-067",
+    "en": "Marginal"
+  },
+  {
+    "id": "glossary-068",
+    "en": "Relating to one additional unit or a small change"
+  }
+]

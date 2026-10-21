@@ -1,0 +1,85 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { marked } from './vendor/marked/marked.esm.js';
+
+const dir = path.dirname(fileURLToPath(import.meta.url));
+const files = ['foundations.md','modules-3-4.md','modules-5-6.md','module-7-capstone.md'];
+const source = files.map(f => fs.readFileSync(path.join(dir,f),'utf8')).join('\n\n');
+const blocks = source.split(/^## /m).filter(Boolean).map(block => {
+  const at = block.indexOf('\n');
+  return { title: block.slice(0,at), markdown: block.slice(at+1) };
+});
+const config = [
+  ['foundation-1','Foundation 1','People, Flows & Balance Sheets','Follow the people and the payments.', ['Households','Businesses','Financial institutions','Government & overseas']],
+  ['foundation-2','Foundation 2','Resources, Production & Income','Find the real resources behind the financial claims.', ['Labor & resources','Technology & organization','Goods & services','Income & spending']],
+  ['module-3','Region 03','Money & Credit','Understand how payments and borrowing work.', ['Bank lending','Deposit creation','Spending & settlement','Income & repayment']],
+  ['module-4','Region 04','Government & Central Banks','Trace a policy from its instrument to its effects.', ['Policy decisions','Income & financing','Private decisions','Output, jobs & prices']],
+  ['module-5','Region 05','Assets & Financial Markets','Identify the claim, then examine the price.', ['Ownership or debt claim','Expected future benefits','Required return & risk','Market price & financing']],
+  ['module-6','Region 06','Global Economy & Exchange Rates','Follow goods, currencies, income, and obligations.', ['Trade & capital flows','Exchange rates','Costs & balance sheets','Local income & spending']],
+  ['module-7','Region 07','Cycles & Financial Crises','Connect real activity to financial feedback.', ['Demand or supply shock','Income & balance sheets','Credit & expectations','Spending & output feedback']],
+  ['capstone','Whole-map mission','A Mixed Shock Across the Map','Test several pathways through one fictional economy.', ['Energy & currency shock','Borrowers & businesses','Policy & market responses','Alternative paths to test']],
+  ['field-practice','Learning route','Field Practice & Study Plan','Build a repeatable way to read economic news.',null],
+  ['glossary','Reference','Your Economics Glossary','Use precise meanings when the same word has several jobs.',null]
+];
+function escape(s) {return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+const sources = new Map();
+for (const match of source.matchAll(/\[([^\]]+)\]\((https:\/\/[^)]+)\)/g)) sources.set(match[2],match[1]);
+function findBlock(id) {
+  const prefix = id.startsWith('foundation-') ? `Foundation ${id.at(-1)}` : id.startsWith('module-') ? `Module ${id.at(-1)}` : id === 'capstone' ? 'Capstone' : id === 'glossary' ? 'Glossary' : 'Field Practice';
+  const block=blocks.find(b=>b.title.startsWith(prefix));
+  if (!block) throw new Error(`Missing ${id}`);
+  return block;
+}
+function format(markdown,id) {
+  let heading=0;
+  const renderer = new marked.Renderer();
+  renderer.heading = function(token) {
+    const text=this.parser.parseInline(token.tokens);
+    return `<h${token.depth} id="${id}-h${++heading}">${text}</h${token.depth}>`;
+  };
+  let out=marked.parse(markdown,{renderer,gfm:true});
+  out=out.replace(/<table>/g,'<div class="table-wrap"><table>').replace(/<\/table>/g,'</table></div>');
+  out=out.replace(/<a href="(https:[^"]+)"/g,'<a target="_blank" rel="noopener noreferrer" href="$1"');
+  out=out.replace(/<p><strong>Answer(?:\.|:)?(?:[^<]*)<\/strong>([\s\S]*?)<\/p>/g, (full)=>`<details class="answer"><summary>Reveal answer</summary>${full}</details>`);
+  return out;
+}
+function diagram(nodes) {
+  if (!nodes) return '';
+  return `<figure class="mechanism" aria-label="A schematic of the connections discussed in this region"><figcaption>Follow the connections</figcaption><div class="flow">${nodes.map((name,i)=>`${i?'<span class="arrow" aria-hidden="true">→</span>':''}<div class="flow-node">${escape(name)}</div>`).join('')}</div><p>Arrows identify channels to investigate. Timing, institutions, and economic conditions shape each result.</p></figure>`;
+}
+const labs={
+  'module-3': `<div class="lab" id="loan-lab"><div class="lab-top"><span class="eyebrow">Balance-sheet explorer</span><h3>One loan, four snapshots</h3><p>A borrower begins with CU 10,000 in deposits. The bank lends CU 50,000 to buy equipment. All payments stay inside this one bank; interest, fees, and depreciation are excluded.</p></div><div class="stage-buttons" role="group" aria-label="Loan stages"><button type="button" data-loan="0" aria-pressed="true">1 · Before loan</button><button type="button" data-loan="1" aria-pressed="false">2 · Loan granted</button><button type="button" data-loan="2" aria-pressed="false">3 · Equipment bought</button><button type="button" data-loan="3" aria-pressed="false">4 · CU 10,000 repaid</button></div><div class="lab-grid"><div><h4>Borrower's balance sheet</h4><dl id="borrower-values"></dl></div><div><h4>Bank's balance sheet</h4><dl id="bank-values"></dl></div></div><p class="lab-result" id="loan-note" aria-live="polite"></p></div>`,
+  'module-4': `<div class="lab"><span class="eyebrow">Fiscal arithmetic</span><h3>A deficit is a flow</h3><p>Change a hypothetical annual budget. All amounts are CU millions; primary spending excludes interest.</p><div class="input-grid"><label>Revenue<input id="fiscal-revenue" type="number" min="0" max="1000000" value="900" step="10"></label><label>Primary spending<input id="fiscal-spending" type="number" min="0" max="1000000" value="950" step="10"></label><label>Interest expense<input id="fiscal-interest" type="number" min="0" max="1000000" value="50" step="5"></label></div><div id="fiscal-result" class="lab-result" aria-live="polite"></div><p class="lab-assumption">This calculation measures budget balances. It does not determine GDP or the complete change in outstanding debt.</p></div>`,
+  'module-5': `<div class="lab"><span class="eyebrow">Bond-price explorer</span><h3>The payment stays fixed. The price changes.</h3><p>This hypothetical bond pays CU 1,050 exactly one year from today: CU 1,000 principal and CU 50 interest. Assume full payment and no fees.</p><label class="range-label" for="bond-yield">Required annual yield <output id="bond-yield-label">5.0%</output></label><input id="bond-yield" type="range" min="1" max="15" step="0.5" value="5"><div class="lab-result" aria-live="polite"><span>Calculated price today</span><strong id="bond-price">CU 1,000.00</strong></div><div class="bond-track" aria-hidden="true"><div id="bond-bar"></div></div><p id="bond-note" class="lab-assumption"></p></div>`,
+  'module-6': `<div class="lab"><span class="eyebrow">Currency-cost explorer</span><h3>Keep the invoice fixed. Change the currency.</h3><p>An imported machine costs US$1,000. Its local-currency cost depends on the number of local-currency units (LCU) needed for one US dollar. These rates are invented.</p><label class="range-label" for="fx-rate">LCU per US$1 <output id="fx-rate-label">7.00</output></label><input id="fx-rate" type="range" min="5" max="9" step="0.1" value="7"><div class="lab-result" aria-live="polite"><span>Local cost of the US$1,000 invoice</span><strong id="fx-cost">LCU 7,000</strong></div><p id="fx-note" class="lab-assumption"></p></div>`,
+  'module-7': `<div class="lab"><span class="eyebrow">Leverage explorer</span><h3>A small asset move, a larger equity move</h3><p>An asset starts at CU 100, financed with CU 80 of debt and CU 20 of equity. Debt remains fixed. Interest, taxes, repayments, and forced sales are excluded.</p><label class="range-label" for="leverage-shock">Change in asset value <output id="leverage-label">−10%</output></label><input id="leverage-shock" type="range" min="-35" max="35" step="1" value="-10"><div class="lab-grid"><div><span class="result-label">New asset value</span><strong class="result-number" id="leverage-asset">CU 90</strong></div><div><span class="result-label">Remaining equity</span><strong class="result-number" id="leverage-equity">CU 10</strong></div></div><p class="lab-result" id="leverage-note" aria-live="polite"></p></div>`
+};
+const quiz={
+ 'module-3': ['A bank credits a new CU 5,000 loan to your account. Before fees, what happens to your net worth?', ['It rises by CU 5,000.','It stays unchanged because assets and liabilities rise together.','It falls by CU 5,000.'],1,'The new deposit is an asset and the new loan is a liability. Payment capacity changes; net worth does not automatically rise.'],
+ 'module-4': ['A policy rate falls. Which outcome is guaranteed by that announcement alone?', ['Every fixed-rate loan payment immediately falls.','Every bank must lend more.','Neither of these outcomes is guaranteed.'],2,'Existing contract terms, risk, demand, and policy pass-through affect the response. Trace the mechanism rather than jumping to the outcome.'],
+ 'module-5': ['A bond promises an unchanged payment next year. If its required yield rises, what happens to its calculated present price?', ['It rises.','It falls.','Its coupon automatically rises.'],1,'The unchanged future payment is divided by a larger discount factor. The price falls; the contractual coupon is unchanged.'],
+ 'module-6': ['The quote moves from 5 to 6 local-currency units per US dollar. With its dollar price unchanged, a US$200 import costs:', ['LCU 1,200 rather than LCU 1,000.','LCU 1,000 rather than LCU 1,200.','The same number of local-currency units.'],0,'Each US dollar costs more local money: 200 × 6 = 1,200. The currency weakened against the dollar; retail pass-through can still differ.'],
+ 'module-7': ['Inflation falls from 8% to 3% over comparable periods. What follows?', ['The general price level returns to its previous level.','The general price level is still rising, more slowly.','Every household sees a lower bill.'],1,'Both rates are positive. Disinflation describes slower price increases; deflation describes a falling general price level.']
+};
+function checkpoint(id) {
+  if(!quiz[id]) return '';
+  const [question,options,correct,explanation]=quiz[id];
+  return `<form class="checkpoint" data-quiz="${id}"><span class="eyebrow">Quick checkpoint</span><fieldset><legend>${escape(question)}</legend>${options.map((option,i)=>`<label class="quiz-option"><input type="radio" name="${id}-answer" value="${i}">${escape(option)}</label>`).join('')}</fieldset><button type="submit" class="primary-button">Check my reasoning</button><p class="quiz-feedback" role="status" data-correct="${correct}" data-explanation="${escape(explanation)}"></p></form>`;
+}
+const sections=config.map(([id,eyebrow,title,description,nodes],i)=>{
+  const block=findBlock(id);
+  const words=block.markdown.match(/\b[\w'-]+\b/g)?.length||0;
+  const isRegion=i<7;
+  return `<section class="chapter" id="${id}" aria-labelledby="${id}-title"><header class="chapter-heading"><div class="chapter-kicker"><span class="eyebrow">${eyebrow}</span><span class="reading-time">${Math.max(1,Math.ceil(words/180))} min reading</span></div><h2 id="${id}-title">${title}</h2><p>${description}</p></header>${diagram(nodes)}${labs[id]||''}<div class="chapter-body">${format(block.markdown,id)}</div>${checkpoint(id)}${isRegion?`<div class="chapter-footer"><button type="button" class="explored-button" data-explored="${id}" aria-pressed="false">Mark this region as explored</button><span>Use this after you can explain the main mechanism in your own words.</span></div>`:''}</section>`;
+}).join('\n');
+const nav=config.map(([id,,title],i)=>`<a href="#${id}" data-nav="${id}"><span class="nav-number">${i<7?String(i+1).padStart(2,'0'):i===7?'↗':i===8?'→':'A–Z'}</span><span>${title}</span><span class="nav-check" data-nav-check="${id}" aria-hidden="true"></span></a>`).join('');
+const map=config.slice(0,7).map(([id,,title,description],i)=>`<a href="#${id}" class="map-link"><span class="map-number">${String(i+1).padStart(2,'0')}</span><div><strong>${title}</strong><span>${description}</span></div><span aria-hidden="true">↗</span></a>`).join('');
+const sourceIndex=[...sources].map(([url,title])=>`<li><a href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(title)}</a><span>${escape(new URL(url).hostname.replace(/^www\./,''))}</span></li>`).join('');
+const body=`<a class="skip-link" href="#main">Skip to the learning guide</a><div class="reading-progress" aria-hidden="true"><div id="reading-progress-fill"></div></div><header class="site-header"><a href="#home" class="wordmark">ECONOMIC <strong>ATLAS</strong></a><div class="header-actions"><button type="button" id="theme-button" aria-label="Switch to dark appearance">Dark mode</button><button type="button" id="print-button">Print / save PDF</button></div></header><div class="layout"><aside class="sidebar"><p class="eyebrow">Your exploration route</p><nav aria-label="Guide contents">${nav}<a href="#sources"><span class="nav-number">↗</span><span>Source library</span></a></nav><div class="exploration-progress"><span id="explored-count">0 of 7 regions explored</span><div class="progress-track"><div id="explored-fill"></div></div><p>Marked by you. Stored in this browser.</p></div></aside><main id="main"><section class="hero" id="home"><span class="eyebrow">A field guide to economics & finance</span><h1>Explore the<br><em>whole map.</em></h1><p class="hero-deck">Understand how money, production, policy, markets, and the world economy connect. Start with people and payments. Follow the mechanisms. Test the assumptions.</p><div class="hero-meta"><span>7 connected regions</span><span>5 interactive examples</span><span>Worked cases & checkpoints</span></div><a href="#foundation-1" class="primary-button">Start exploring <span aria-hidden="true">→</span></a><a href="#field-practice" class="text-link">See the study route</a><p class="edition">English edition · Prepared 14 October 2026</p></section><section class="orientation" aria-labelledby="orientation-title"><span class="eyebrow">Before you enter</span><h2 id="orientation-title">A map is a way to connect ideas.</h2><p>The goal is to explain what changes, who is affected, and which conditions transmit the change. Like revealing terrain in an exploration game, each region gives the next one context. Real economies also contain uncertainty, competing objectives, and rules that evolve.</p><div class="orientation-grid"><div><strong>Economics</strong><p>How people organize scarce resources, produce goods and services, and distribute income.</p></div><div><strong>Finance</strong><p>How payments, funding, ownership claims, and risk connect decisions across time.</p></div></div><p class="scope-note">Modules 3–7 form the main learning plan. Foundations 1–2 supply the supporting concepts. Numerical examples are hypothetical; policy institutions and legal protections differ across countries. The guide teaches mechanisms rather than prescribing trades or predicting prices.</p></section><section class="map-section" aria-labelledby="map-title"><div class="chapter-kicker"><span class="eyebrow">The terrain</span><span class="reading-time">Choose a starting point</span></div><h2 id="map-title">Seven regions. One connected system.</h2><div class="region-map">${map}</div></section>${sections}<section class="chapter source-library" id="sources"><header class="chapter-heading"><span class="eyebrow">Primary references</span><h2>Source library</h2><p>Links also appear beside the concepts they support. Worked numbers and fictional economies were created for this guide. References explain institutions or mechanisms; a dated institutional example is not a current policy-rate quote.</p></header><ol>${sourceIndex}</ol></section><footer class="site-footer"><strong>Keep exploring.</strong><p>For every headline: identify the change, name the first exposure, trace the channel, state the conditions, and check the evidence.</p><a href="#home">Back to the map ↑</a></footer></main></div>`;
+const css=fs.readFileSync(path.join(dir,'style.css'),'utf8');
+const js=fs.readFileSync(path.join(dir,'interactions.js'),'utf8');
+const html=`<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="An English learning guide connecting money and credit, policy, markets, exchange rates, and economic cycles, with foundations, interactive examples, and worked cases."><title>Economic Atlas — Explore the Whole Map</title><style>${css}</style></head><body>${body}<script>${js}</script></body></html>\n`;
+if (/[\u3400-\u9fff]/.test(html)) throw new Error('Unexpected Chinese content in English HTML');
+fs.writeFileSync(path.join(dir,'index.html'),html);
+console.log(JSON.stringify({output:path.join(dir,'index.html'),sections:config.length,sources:sources.size,words:source.match(/\b[\w'-]+\b/g).length,bytes:Buffer.byteLength(html)},null,2));

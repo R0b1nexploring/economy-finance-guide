@@ -1,0 +1,686 @@
+[
+  {
+    "id": "module-5-001",
+    "en": "<strong>The question:</strong> When you buy an asset, what exactly do you own, and why does its price change?"
+  },
+  {
+    "id": "module-5-002",
+    "en": "On your exploration map, this region contains claims on future income, places where those claims trade, and connections to borrowing and business investment. A price chart is one small window into this region."
+  },
+  {
+    "id": "module-5-003",
+    "en": "What you should be able to explain"
+  },
+  {
+    "id": "module-5-004",
+    "en": "By the end, you should be able to distinguish ownership from lending, financing from trading, price from cash flow, and a fund from its underlying assets. You should also be able to calculate a simple bond price and explain why good business results can accompany a falling share price."
+  },
+  {
+    "id": "module-5-005",
+    "en": "Lesson 5.1 — Identify the claim before looking at the price"
+  },
+  {
+    "id": "module-5-006",
+    "en": "An asset is something you own that can provide economic benefits. Those benefits might be spending power, income, productive use, housing services, or a future sale. Start with the underlying object or legal claim."
+  },
+  {
+    "id": "module-5-007",
+    "en": "Asset"
+  },
+  {
+    "id": "module-5-008",
+    "en": "What the owner holds"
+  },
+  {
+    "id": "module-5-009",
+    "en": "Potential benefit"
+  },
+  {
+    "id": "module-5-010",
+    "en": "Important exposure"
+  },
+  {
+    "id": "module-5-011",
+    "en": "Bank deposit"
+  },
+  {
+    "id": "module-5-012",
+    "en": "A claim on a bank"
+  },
+  {
+    "id": "module-5-013",
+    "en": "Payments and any deposit interest"
+  },
+  {
+    "id": "module-5-014",
+    "en": "Bank credit risk and inflation; legal protections vary"
+  },
+  {
+    "id": "module-5-015",
+    "en": "Bond"
+  },
+  {
+    "id": "module-5-016",
+    "en": "A debt claim on an issuer"
+  },
+  {
+    "id": "module-5-017",
+    "en": "Contractual interest and principal payments"
+  },
+  {
+    "id": "module-5-018",
+    "en": "Default, changing yields, and inflation"
+  },
+  {
+    "id": "module-5-019",
+    "en": "Common share"
+  },
+  {
+    "id": "module-5-020",
+    "en": "A portion of company ownership"
+  },
+  {
+    "id": "module-5-021",
+    "en": "Possible distributions and a future sale"
+  },
+  {
+    "id": "module-5-022",
+    "en": "Business performance and market valuation"
+  },
+  {
+    "id": "module-5-023",
+    "en": "Fund unit"
+  },
+  {
+    "id": "module-5-024",
+    "en": "A claim on a pooled portfolio"
+  },
+  {
+    "id": "module-5-025",
+    "en": "Returns from its holdings"
+  },
+  {
+    "id": "module-5-026",
+    "en": "Underlying assets, concentration, structure, and fees"
+  },
+  {
+    "id": "module-5-027",
+    "en": "Property"
+  },
+  {
+    "id": "module-5-028",
+    "en": "Ownership of land or a building"
+  },
+  {
+    "id": "module-5-029",
+    "en": "Use, rent, and a future sale"
+  },
+  {
+    "id": "module-5-030",
+    "en": "Local demand, maintenance, financing, and selling costs"
+  },
+  {
+    "id": "module-5-031",
+    "en": "Physical gold"
+  },
+  {
+    "id": "module-5-032",
+    "en": "Ownership of a metal"
+  },
+  {
+    "id": "module-5-033",
+    "en": "Use and a future sale"
+  },
+  {
+    "id": "module-5-034",
+    "en": "Market demand, storage, and price changes"
+  },
+  {
+    "id": "module-5-035",
+    "en": "Derivative"
+  },
+  {
+    "id": "module-5-036",
+    "en": "Rights or obligations under a contract"
+  },
+  {
+    "id": "module-5-037",
+    "en": "A payoff linked to another price or event"
+  },
+  {
+    "id": "module-5-038",
+    "en": "Contract terms, counterparties, and possible leverage"
+  },
+  {
+    "id": "module-5-039",
+    "en": "A common share is an ownership claim; a corporate bond is a lending claim. Common shareholders receive what remains after obligations with higher priority are satisfied. Dividends depend on company decisions and available resources. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks\">SEC: Stocks</a>"
+  },
+  {
+    "id": "module-5-040",
+    "en": "This gives you a useful opening question: <strong>Who, if anyone, is obliged to pay me, and under what conditions?</strong> A company&#39;s bond, its ordinary share, and a token with its name can have very different answers. For a digital asset, inspect the specific rights and structure rather than assuming that “token” implies ownership or income."
+  },
+  {
+    "id": "module-5-041",
+    "en": "Lesson 5.2 — Separate financing from trading"
+  },
+  {
+    "id": "module-5-042",
+    "en": "In the <strong>primary market</strong>, an issuer sells newly issued securities and receives the proceeds. In the <strong>secondary market</strong>, existing securities change hands between owners. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.investor.gov/introduction-investing/investing-basics/glossary/primary-market\">SEC: Primary Market</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://investor.sebi.gov.in/securities-stockmarket.html\">SEBI: Securities Markets</a>"
+  },
+  {
+    "id": "module-5-043",
+    "en": "<strong>Hypothetical example:</strong> River Tools issues 100,000 new shares at $10 each. Before issuance costs, it raises $1 million. Later, Alex buys 100 of those shares from Sam for $12 each. The $1,200 goes to Sam, while ownership moves to Alex."
+  },
+  {
+    "id": "module-5-044",
+    "en": "Secondary markets still affect businesses. Investors may accept a new security more readily when they expect to be able to resell it. Market prices also influence future financing, acquisitions, and the value of share-based compensation."
+  },
+  {
+    "id": "module-5-045",
+    "en": "<strong>Market capitalization = share price × shares outstanding.</strong> If a business has 100,000 shares priced at $20, its equity market capitalization is $2 million. That is a market valuation of equity, not a bank balance or the cash investors have collectively deposited into the company. A change in the price used to value all shares can create a large change in market capitalization without all shares trading."
+  },
+  {
+    "id": "module-5-046",
+    "en": "Lesson 5.3 — A bond connects promised payments to today&#39;s price"
+  },
+  {
+    "id": "module-5-047",
+    "en": "A bond contract specifies payment terms. <strong>Face value</strong> is the amount due at maturity; the <strong>coupon</strong> is its interest payment. <strong>Yield</strong> describes the return implied by the price and payments. A bond&#39;s market price and its yield move in opposite directions when the promised cash flows remain unchanged. Credit quality and liquidity also matter. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are\">SEC: Corporate Bonds</a>"
+  },
+  {
+    "id": "module-5-048",
+    "en": "<strong>Hypothetical calculation:</strong> A bond has exactly one year left. It will pay a $50 coupon and repay $1,000 at that year&#39;s end. Assume full payment, no fees, and one annual discount rate appropriate to this bond&#39;s risk."
+  },
+  {
+    "id": "module-5-049",
+    "en": "<strong>Price today = $1,050 ÷ (1 + required yield).</strong>"
+  },
+  {
+    "id": "module-5-050",
+    "en": "Required annual yield"
+  },
+  {
+    "id": "module-5-051",
+    "en": "Calculated price today"
+  },
+  {
+    "id": "module-5-052",
+    "en": "Payment in one year"
+  },
+  {
+    "id": "module-5-053",
+    "en": "2%"
+  },
+  {
+    "id": "module-5-054",
+    "en": "$1,029.41"
+  },
+  {
+    "id": "module-5-055",
+    "en": "$1,050"
+  },
+  {
+    "id": "module-5-056",
+    "en": "5%"
+  },
+  {
+    "id": "module-5-057",
+    "en": "$1,000.00"
+  },
+  {
+    "id": "module-5-058",
+    "en": "$1,050"
+  },
+  {
+    "id": "module-5-059",
+    "en": "10%"
+  },
+  {
+    "id": "module-5-060",
+    "en": "$954.55"
+  },
+  {
+    "id": "module-5-061",
+    "en": "$1,050"
+  },
+  {
+    "id": "module-5-062",
+    "en": "The contract still promises the same dollars. Buyers require a lower purchase price when they demand a higher return. The $50 coupon is 5% of face value in every row; it does not become a 10% coupon when the price falls."
+  },
+  {
+    "id": "module-5-063",
+    "en": "Holding to maturity avoids selling at an intermediate market price, but the issuer must still pay. Inflation can reduce the purchasing power of the repayment. A bond fund generally holds and trades multiple bonds; it does not necessarily give its investors one fixed repayment date."
+  },
+  {
+    "id": "module-5-064",
+    "en": "Lesson 5.4 — A company and its share price can move differently"
+  },
+  {
+    "id": "module-5-065",
+    "en": "<strong>Hypothetical example:</strong> Bright Machines has 100,000 shares and annual net profit of $100,000. Earnings per share, or <strong>EPS</strong>, are $1.00. At a $20 share price, its <strong>price-to-earnings ratio</strong>, or <strong>P/E</strong>, is 20."
+  },
+  {
+    "id": "module-5-066",
+    "en": "Suppose investors had expected next year&#39;s EPS to reach $1.30. The company instead reports $1.10: profit grew 10%, but fell short of those expectations. Investors also become less confident about later growth. For illustration, suppose the price they accept becomes 17 times reported EPS:"
+  },
+  {
+    "id": "module-5-067",
+    "en": "<strong>Illustrative price = $1.10 × 17 = $18.70.</strong>"
+  },
+  {
+    "id": "module-5-068",
+    "en": "Profit rose while price fell. This example uses an assumed valuation multiple to illustrate the mechanism; P/E is not a machine that determines the next market price. EPS also measures accounting profit, which can differ substantially from cash available for distribution."
+  },
+  {
+    "id": "module-5-069",
+    "en": "For a broader valuation framework, ask about expected future cash available to owners, its timing, and the return demanded for uncertainty. More expected cash generally supports a higher valuation, other things equal. A higher required return generally lowers today&#39;s valuation of unchanged future cash. Long-dated expectations can therefore be sensitive to changes in discount rates."
+  },
+  {
+    "id": "module-5-070",
+    "en": "The crucial comparison is <strong>new information versus what the price already implied</strong>. A widely anticipated recovery may be reflected in prices before published economic data improve."
+  },
+  {
+    "id": "module-5-071",
+    "en": "Lesson 5.5 — Funds package exposure; they do not erase it"
+  },
+  {
+    "id": "module-5-072",
+    "en": "A fund pools investors&#39; money into a portfolio. An ETF trades on an exchange, so its trading price can differ from the value of its holdings per share. Its expenses reduce investor returns. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24\">SEC: Exchange-Traded Funds</a>"
+  },
+  {
+    "id": "module-5-073",
+    "en": "An index is a rule-based measure of a group of assets; an index fund is a product attempting to follow such a measure. Neither “fund” nor “index” tells you how diversified the exposure is. A narrowly focused fund can remain heavily exposed to one industry. Diversification reduces some concentration risks but cannot prevent broad market losses. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.investor.gov/introduction-investing/getting-started/asset-allocation\">SEC: Asset Allocation and Diversification</a>"
+  },
+  {
+    "id": "module-5-074",
+    "en": "<strong>Hypothetical example:</strong> Two funds have different names, but each holds mostly the same large technology companies. Buying both increases the number of products in your account while adding little economic variety. Read the holdings and weights to see which underlying risks repeat."
+  },
+  {
+    "id": "module-5-075",
+    "en": "Lesson 5.6 — Measure return and risk in useful units"
+  },
+  {
+    "id": "module-5-076",
+    "en": "<strong>Hypothetical total return:</strong> You buy an asset for $100, receive $3 of income, and later sell for $104. Before fees and taxes:"
+  },
+  {
+    "id": "module-5-077",
+    "en": "<strong>Total return = ($104 − $100 + $3) ÷ $100 = 7%.</strong>"
+  },
+  {
+    "id": "module-5-078",
+    "en": "If prices for your consumption basket rose 4% over the same period, the purchasing-power return is approximately:"
+  },
+  {
+    "id": "module-5-079",
+    "en": "<strong>Real return = 1.07 ÷ 1.04 − 1 = 2.88%.</strong>"
+  },
+  {
+    "id": "module-5-080",
+    "en": "Risk includes inability to get money out when needed, business failure, changing prices, and loss of purchasing power. A quiet price chart does not establish that an asset is easy to sell or that its issuer can meet obligations. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.investor.gov/introduction-investing/investing-basics/what-risk\">SEC: What Is Risk?</a>"
+  },
+  {
+    "id": "module-5-081",
+    "en": "<strong>Hypothetical leverage:</strong> You use $2,000 of your money and borrow $8,000 to buy a $10,000 asset. If its value falls 10%, you have a $9,000 asset against an $8,000 debt. Your equity falls from $2,000 to $1,000: a 50% loss before interest and costs. Debt magnifies changes in the owner&#39;s remaining claim. Repayment or collateral requirements can also force a sale before the owner would choose one."
+  },
+  {
+    "id": "module-5-082",
+    "en": "Connections to the rest of the map"
+  },
+  {
+    "id": "module-5-083",
+    "en": "<strong>Higher required bond yields → lower prices for unchanged fixed payments.</strong> Longer payment horizons often increase sensitivity; changing default risk can add another effect."
+  },
+  {
+    "id": "module-5-084",
+    "en": "<strong>Higher business financing costs → some projects become less attractive → possible changes in investment and hiring.</strong> Existing fixed-rate borrowing may delay the effect."
+  },
+  {
+    "id": "module-5-085",
+    "en": "<strong>Stronger household demand → possible revenue growth → possible profit growth.</strong> Costs and competitive pricing determine how much reaches owners."
+  },
+  {
+    "id": "module-5-086",
+    "en": "<strong>Falling asset prices → weaker collateral or household wealth → possible reductions in borrowing and spending.</strong> The effect depends on ownership, debt, and financing rules."
+  },
+  {
+    "id": "module-5-087",
+    "en": "These are channels to investigate. They are conditional relationships, not promises about tomorrow&#39;s prices."
+  },
+  {
+    "id": "module-5-088",
+    "en": "Misconceptions to clear from the map"
+  },
+  {
+    "id": "module-5-089",
+    "en": "A profitable company can have an expensive share price; company quality and purchase valuation are separate questions."
+  },
+  {
+    "id": "module-5-090",
+    "en": "A bond&#39;s stated coupon is not necessarily the buyer&#39;s yield."
+  },
+  {
+    "id": "module-5-091",
+    "en": "A $5 share is not automatically cheaper than a $100 share; share count and business value matter."
+  },
+  {
+    "id": "module-5-092",
+    "en": "Gold does not pay a contractual dividend or coupon simply because its price rises."
+  },
+  {
+    "id": "module-5-093",
+    "en": "A high expected return is compensation someone demands for uncertainty, not a guaranteed outcome."
+  },
+  {
+    "id": "module-5-094",
+    "en": "Check your understanding"
+  },
+  {
+    "id": "module-5-095",
+    "en": "<strong>1. A bond will pay $1,080 in one year. With a required yield of 8%, what is its price under the one-payment assumptions?</strong>"
+  },
+  {
+    "id": "module-5-096",
+    "en": "<strong>Answer:</strong> $1,080 ÷ 1.08 = $1,000. If the required yield rises to 12%, the price becomes about $964.29. The promised payment stays unchanged."
+  },
+  {
+    "id": "module-5-097",
+    "en": "<strong>2. A company&#39;s profit rises 15%, yet its share price falls. Give two possible explanations.</strong>"
+  },
+  {
+    "id": "module-5-098",
+    "en": "<strong>Answer:</strong> Investors may have expected greater growth, or they may now demand a higher return for holding its uncertain cash flows. Other possibilities include poorer cash conversion or a weaker outlook. Identify evidence before choosing an explanation."
+  },
+  {
+    "id": "module-5-099",
+    "en": "<strong>3. You own five funds. Have you established diversification?</strong>"
+  },
+  {
+    "id": "module-5-100",
+    "en": "<strong>Answer:</strong> No. Check their underlying holdings, weights, regions, and sources of risk. Several portfolios can depend on the same companies or economic conditions."
+  },
+  {
+    "id": "module-5-101",
+    "en": "<strong>Exploration exercise:</strong> Pick an asset mentioned in a news story. Write four sentences: what the owner holds, where any cash flow comes from, what changed, and which expectation or required return might have moved."
+  },
+  {
+    "id": "module-6-001",
+    "en": "<strong>The question:</strong> How can a decision in another country affect your job, shopping bill, and financial assets?"
+  },
+  {
+    "id": "module-6-002",
+    "en": "The national economy is connected to other economies through goods, services, income, investment, and borrowing. Currencies translate transactions between them. On your map, borders contain many routes rather than one gate."
+  },
+  {
+    "id": "module-6-003",
+    "en": "What you should be able to explain"
+  },
+  {
+    "id": "module-6-004",
+    "en": "By the end, you should be able to read an exchange-rate quotation, calculate an import&#39;s local-currency cost, identify who benefits from a currency movement, and distinguish trade flows from financial flows. You should also understand a simple currency hedge and why foreign-currency debt can become harder to repay."
+  },
+  {
+    "id": "module-6-005",
+    "en": "Lesson 6.1 — Trade reallocates resources and changes people&#39;s opportunities"
+  },
+  {
+    "id": "module-6-006",
+    "en": "Trade lets people specialize and exchange. <strong>Comparative advantage</strong> concerns the opportunity cost of producing one thing instead of another; it differs from being the most productive at everything. Aggregate gains can coexist with concentrated losses for particular workers and firms. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/trade\">IMF: International Trade</a>"
+  },
+  {
+    "id": "module-6-007",
+    "en": "<strong>Hypothetical illustration:</strong> Using one worker-day, Country A can make either 12 shirts or 6 bags of rice. Country B can make either 4 shirts or 4 bags of rice. Assume these production choices scale proportionally and transport is free."
+  },
+  {
+    "id": "module-6-008",
+    "en": "Country"
+  },
+  {
+    "id": "module-6-009",
+    "en": "Cost of producing one bag of rice"
+  },
+  {
+    "id": "module-6-010",
+    "en": "Cost of producing one shirt"
+  },
+  {
+    "id": "module-6-011",
+    "en": "A"
+  },
+  {
+    "id": "module-6-012",
+    "en": "2 shirts forgone"
+  },
+  {
+    "id": "module-6-013",
+    "en": "0.5 bag of rice forgone"
+  },
+  {
+    "id": "module-6-014",
+    "en": "B"
+  },
+  {
+    "id": "module-6-015",
+    "en": "1 shirt forgone"
+  },
+  {
+    "id": "module-6-016",
+    "en": "1 bag of rice forgone"
+  },
+  {
+    "id": "module-6-017",
+    "en": "A is more productive in both activities, but gives up less rice when making shirts. B gives up fewer shirts when making rice. At an exchange of 3 shirts for 2 bags of rice, A obtains rice at 1.5 shirts per bag instead of its domestic cost of 2. B obtains shirts at two-thirds of a bag each instead of its domestic cost of 1."
+  },
+  {
+    "id": "module-6-018",
+    "en": "This simplified exercise shows a source of gains from exchange. Real trade also involves transport, environmental costs, security concerns, market power, adjustment costs, and uneven bargaining power. Cheaper goods and an expanding export business can benefit some households while import competition reduces employment elsewhere. Follow both sides."
+  },
+  {
+    "id": "module-6-019",
+    "en": "Lesson 6.2 — Goods and financial claims travel on different routes"
+  },
+  {
+    "id": "module-6-020",
+    "en": "An <strong>export</strong> sells a good or service to a nonresident. An <strong>import</strong> buys one from a nonresident. A <strong>trade balance</strong> compares exports and imports; always check whether a headline includes services or only goods."
+  },
+  {
+    "id": "module-6-021",
+    "en": "The <strong>current account</strong> also includes cross-border income and transfers. Its balance corresponds to national saving minus investment under national accounting definitions. A deficit therefore has a financial counterpart; it is not simply a score showing who won at trade. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/external/pubs/ft/fandd/2006/12/basics.htm\">IMF: Current Account Deficits</a>"
+  },
+  {
+    "id": "module-6-022",
+    "en": "<strong>Hypothetical simplified economy:</strong> National saving is $80 billion and domestic investment is $100 billion. The current-account balance is −$20 billion. That financing gap can be met through increases in foreign claims on the country or reductions in its claims abroad, including relevant reserve transactions. The accounting identity does not tell you whether the resulting arrangement is wise."
+  },
+  {
+    "id": "module-6-023",
+    "en": "Foreign financing might support productive equipment with future earnings, or spending that produces little repayment capacity. Ownership investment, long-term local-currency debt, and short-term foreign-currency debt have different risk profiles. Ask <strong>what was financed, who bears losses, in which currency, and when obligations fall due</strong>."
+  },
+  {
+    "id": "module-6-024",
+    "en": "Lesson 6.3 — Read a currency quotation carefully"
+  },
+  {
+    "id": "module-6-025",
+    "en": "An exchange rate is the price of one currency in another. In a floating system, trading demand and supply influence that price. Different countries use different arrangements, including managed or fixed rates. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/explainers/who-sets-exchange-rates\">Bank of England: Who Sets Exchange Rates?</a>"
+  },
+  {
+    "id": "module-6-026",
+    "en": "<strong>Hypothetical quotation: $1 = 7 local-currency units, abbreviated LCU.</strong> This is an invented rate, not a current quote for any country."
+  },
+  {
+    "id": "module-6-027",
+    "en": "If the rate becomes $1 = 7.7 LCU, each dollar costs more local money: the local currency has depreciated against the dollar. If it becomes $1 = 6.3 LCU, the local currency has appreciated. Always state which currency strengthened against which other currency."
+  },
+  {
+    "id": "module-6-028",
+    "en": "<strong>Hypothetical import calculation:</strong> A machine priced at $1,000 costs 7,000 LCU at the original rate. At 7.7 LCU per dollar, it costs 7,700 LCU, a 10% increase, assuming the dollar price is unchanged. A household with 7,000 LCU can now buy about $909.09 instead of $1,000."
+  },
+  {
+    "id": "module-6-029",
+    "en": "The inverse quotation gives a different percentage: a unit of local currency loses about 9.09% of its dollar value. Percentage changes in reciprocal quotations need not match."
+  },
+  {
+    "id": "module-6-030",
+    "en": "An exporter receiving a fixed $1,000 now receives 7,700 LCU rather than 7,000. Its margin may improve if local costs are unchanged. Imported components, dollar debts, or a customer&#39;s demand for a lower dollar price can reduce that benefit."
+  },
+  {
+    "id": "module-6-031",
+    "en": "Lesson 6.4 — Trace the invoice, costs, and debt"
+  },
+  {
+    "id": "module-6-032",
+    "en": "Currency movements do not pass immediately and completely into shop prices. Existing contracts, hedging, invoicing currency, inventory, and profit margins affect the timing and size of transmission. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/quarterly-bulletin/2024/2024/about-a-rate-of-general-interest-how-monetary-policy-transmits\">Bank of England: Monetary Policy Transmission</a>"
+  },
+  {
+    "id": "module-6-033",
+    "en": "The dollar connects economies through trade invoices and financing even when the United States is not one of the trading partners. Dollar pricing can make the dollar exchange rate relevant to an import from a different country. Foreign-currency liabilities also change value relative to domestic income when currencies move. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/en/publications/staff-discussion-notes/issues/2020/07/16/dominant-currencies-and-external-adjustment-48618\">IMF staff analysis: Dominant Currencies and External Adjustment</a>"
+  },
+  {
+    "id": "module-6-034",
+    "en": "<strong>Hypothetical debt example:</strong> A business earns LCU and owes $100,000. Its principal is worth 700,000 LCU at 7 LCU per dollar and 770,000 LCU at 7.7. Local-currency repayment needs rise by 70,000 LCU although the dollar principal is unchanged. Dollar export revenue could offset part of this exposure; local sales alone do not."
+  },
+  {
+    "id": "module-6-035",
+    "en": "To analyze a firm, mark the currencies of sales, expenses, assets, and liabilities. The country where it is headquartered does not answer these questions."
+  },
+  {
+    "id": "module-6-036",
+    "en": "Lesson 6.5 — Hedging exchanges an uncertain rate for a contractual rate"
+  },
+  {
+    "id": "module-6-037",
+    "en": "A foreign-exchange forward agrees an exchange of currencies at a specified rate and future date. It can make an expected payment or receipt more predictable. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.trade.gov/foreign-exchange-risk\">US International Trade Administration: Foreign Exchange Risk</a>"
+  },
+  {
+    "id": "module-6-038",
+    "en": "<strong>Hypothetical importer:</strong> A business must pay $10,000 in three months. It contracts to buy those dollars then for 7.10 LCU each. Its contracted currency cost is 71,000 LCU, assuming performance by both parties and ignoring fees or collateral."
+  },
+  {
+    "id": "module-6-039",
+    "en": "Spot rate when payment is due"
+  },
+  {
+    "id": "module-6-040",
+    "en": "Cost without a hedge"
+  },
+  {
+    "id": "module-6-041",
+    "en": "Contracted forward cost"
+  },
+  {
+    "id": "module-6-042",
+    "en": "7.70 LCU per dollar"
+  },
+  {
+    "id": "module-6-043",
+    "en": "77,000 LCU"
+  },
+  {
+    "id": "module-6-044",
+    "en": "71,000 LCU"
+  },
+  {
+    "id": "module-6-045",
+    "en": "6.50 LCU per dollar"
+  },
+  {
+    "id": "module-6-046",
+    "en": "65,000 LCU"
+  },
+  {
+    "id": "module-6-047",
+    "en": "71,000 LCU"
+  },
+  {
+    "id": "module-6-048",
+    "en": "The hedge protects against the first outcome but gives up the cheaper purchase available in the second. Its purpose here is budget certainty. It creates contractual obligations and can leave residual exposure if the purchase amount or timing changes. A forward rate reflects contractual pricing conditions; treat it separately from a forecast of the future spot rate."
+  },
+  {
+    "id": "module-6-049",
+    "en": "Lesson 6.6 — Domestic purchasing power and foreign purchasing power differ"
+  },
+  {
+    "id": "module-6-050",
+    "en": "A <strong>nominal exchange rate</strong> translates currencies. A <strong>real exchange rate</strong> also takes relative prices into account. A currency can remain unchanged against another while domestic inflation changes how expensive its country&#39;s goods are relative to foreign goods. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/real-exchange-rates\">IMF: Real Exchange Rates</a>"
+  },
+  {
+    "id": "module-6-051",
+    "en": "<strong>Hypothetical illustration:</strong> The currency quotation is unchanged. A domestic product&#39;s price rises from 100 to 110 LCU while a comparable foreign product&#39;s dollar price stays constant. The domestic product becomes 10% more expensive relative to that foreign product. Nominal exchange-rate stability did not preserve its relative price competitiveness."
+  },
+  {
+    "id": "module-6-052",
+    "en": "Connections to the rest of the map"
+  },
+  {
+    "id": "module-6-053",
+    "en": "<strong>Foreign demand falls → an exporter&#39;s orders may fall → production, wages, or hiring may weaken.</strong> Effects depend on the firm&#39;s customer mix."
+  },
+  {
+    "id": "module-6-054",
+    "en": "<strong>Oil&#39;s dollar price rises → import costs may rise → transport and production costs may rise.</strong> Currency appreciation, contracts, taxes, and margins can offset part of the increase."
+  },
+  {
+    "id": "module-6-055",
+    "en": "<strong>Domestic interest rates rise relative to foreign rates → domestic assets may become more attractive → currency demand may increase.</strong> Expectations and perceived risk can overwhelm this channel."
+  },
+  {
+    "id": "module-6-056",
+    "en": "<strong>Local currency depreciates → local cost of foreign-currency debt rises → some borrowers cut spending or seek more financing.</strong> Matching foreign-currency revenue can reduce exposure."
+  },
+  {
+    "id": "module-6-057",
+    "en": "Misconceptions to clear from the map"
+  },
+  {
+    "id": "module-6-058",
+    "en": "Currency appreciation helps some buyers and hurts some sellers; it is not a universal measure of national success."
+  },
+  {
+    "id": "module-6-059",
+    "en": "Imports provide goods and services, including inputs for exporters; their value is not automatically an economic loss."
+  },
+  {
+    "id": "module-6-060",
+    "en": "A trade surplus and a government budget surplus describe different accounts."
+  },
+  {
+    "id": "module-6-061",
+    "en": "Higher interest rates do not guarantee currency appreciation."
+  },
+  {
+    "id": "module-6-062",
+    "en": "A weakening currency does not guarantee rising export volumes; invoices, capacity, imported inputs, and demand matter."
+  },
+  {
+    "id": "module-6-063",
+    "en": "Check your understanding"
+  },
+  {
+    "id": "module-6-064",
+    "en": "<strong>1. A $200 import moves from 5 to 6 LCU per dollar. What happens to its local cost, assuming an unchanged dollar price?</strong>"
+  },
+  {
+    "id": "module-6-065",
+    "en": "<strong>Answer:</strong> It rises from 1,000 to 1,200 LCU, or 20%. The local currency weakened. The retail price need not rise by exactly the same percentage."
+  },
+  {
+    "id": "module-6-066",
+    "en": "<strong>2. An exporter receives dollars and buys components in dollars. Does local depreciation necessarily raise its profit?</strong>"
+  },
+  {
+    "id": "module-6-067",
+    "en": "<strong>Answer:</strong> No. Both receipts and component costs rise when translated into local currency. Calculate the net exposure, other costs, debt, and any change in sales volume."
+  },
+  {
+    "id": "module-6-068",
+    "en": "<strong>3. A company locks an exchange rate and later sees a more favorable spot rate. Did the hedge necessarily fail?</strong>"
+  },
+  {
+    "id": "module-6-069",
+    "en": "<strong>Answer:</strong> No. It may have achieved predictable funding for a real obligation. Assess it against that purpose, including its costs and remaining risks, rather than against whichever spot outcome happened later."
+  },
+  {
+    "id": "module-6-070",
+    "en": "<strong>Exploration exercise:</strong> Follow one imported item from foreign producer to domestic buyer. Label the invoice currency, shipping and tax costs, any hedge, and the currencies of revenue and debt. Then explain who first absorbs an exchange-rate change and who may eventually pay for it."
+  }
+]

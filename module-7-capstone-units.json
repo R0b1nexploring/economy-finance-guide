@@ -1,0 +1,650 @@
+[
+  {
+    "id": "module-7-001",
+    "en": "<strong>Map position:</strong> The region where production, credit, policy, markets, and global connections meet."
+  },
+  {
+    "id": "module-7-002",
+    "en": "<strong>Mission:</strong> Explain how an ordinary slowdown can become a financial crisis, and why the same headline can lead to several different outcomes."
+  },
+  {
+    "id": "module-7-003",
+    "en": "<strong>Learning objectives</strong>"
+  },
+  {
+    "id": "module-7-004",
+    "en": "Separate the level of economic activity from its growth rate, and distinguish the business cycle from longer-term productive capacity."
+  },
+  {
+    "id": "module-7-005",
+    "en": "Read inflation correctly: identify the price level, inflation, disinflation, and deflation."
+  },
+  {
+    "id": "module-7-006",
+    "en": "Distinguish demand shocks from supply shocks before discussing policy."
+  },
+  {
+    "id": "module-7-007",
+    "en": "Calculate how debt magnifies a change in asset value and recognize refinancing risk."
+  },
+  {
+    "id": "module-7-008",
+    "en": "Tell a shortage of immediately available cash from an underlying inability to repay obligations."
+  },
+  {
+    "id": "module-7-009",
+    "en": "Trace reinforcing and stabilizing feedback loops without pretending that cycles follow a fixed timetable."
+  },
+  {
+    "id": "module-7-010",
+    "en": "7.1 — The economy has several clocks"
+  },
+  {
+    "id": "module-7-011",
+    "en": "In an exploration game, a damaged power station might reduce current output while an unfinished technology upgrade changes what the base will produce later. The economy also has current activity and future productive capacity. These can move differently."
+  },
+  {
+    "id": "module-7-012",
+    "en": "The <strong>business cycle</strong> describes broad expansions and contractions in economic activity. Output, employment, income, and sales provide different views of the same terrain. A <strong>recession</strong> is a substantial and widespread contraction, rather than any disappointing number. Two successive quarters of falling real GDP are a common shortcut, but official definitions and dating practices differ by country. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/external/pubs/ft/fandd/2009/03/basics.htm\">IMF: What Is a Recession?</a>"
+  },
+  {
+    "id": "module-7-013",
+    "en": "<strong>Real GDP</strong> adjusts measured output for price changes. If nominal sales increase because prices rise, that does not necessarily mean the economy produces more. Read the unit and the time comparison before interpreting a chart."
+  },
+  {
+    "id": "module-7-014",
+    "en": "Consider a hypothetical output index. It rises from 100 to 104, then to 106. Output is still increasing, but growth slows from 4% to about 1.9%. If it then falls to 105, output contracts by about 0.9%. These are three different observations: an expansion, slower growth, and a contraction. A return from 105 to 106 is growth again, but it does not recover the output that might have been produced on a stronger path."
+  },
+  {
+    "id": "module-7-015",
+    "en": "Longer-term capacity depends on workers, skills, equipment, institutions, and technology. A recession can leave lasting damage if investment is cancelled, viable firms disappear, or workers lose opportunities to develop skills. A recovery therefore need not return an economy to its earlier projected path. <strong>A new positive growth rate is different from making up all the lost output.</strong> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/en/blogs/articles/2018/03/21/the-economic-scars-of-crises-and-recessions\">IMF: The Economic Scars of Crises and Recessions</a>"
+  },
+  {
+    "id": "module-7-016",
+    "en": "The <strong>financial cycle</strong> concerns movements in credit, leverage, asset valuations, and appetite for risk. It can overlap with the business cycle without matching it. Credit and property prices may reinforce one another: more borrowing funds purchases; higher collateral values can support further borrowing. These relationships are useful mechanisms, not a countdown to the next crash. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bis.org/publications/iv-8\">BIS: The Financial Cycle</a>"
+  },
+  {
+    "id": "module-7-017",
+    "en": "7.2 — Inflation measures speed; the price level measures height"
+  },
+  {
+    "id": "module-7-018",
+    "en": "The <strong>price level</strong> is an index of a basket&#39;s cost. <strong>Inflation</strong> is the percentage increase in that index over a stated period. A national consumer-price basket represents average spending, so a particular household can experience a different change in living costs. Housing, food, transport, and services have different weights for different people. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/explainers/what-is-inflation\">Bank of England: What Is Inflation?</a>"
+  },
+  {
+    "id": "module-7-019",
+    "en": "Use this invented basket to see the distinction:"
+  },
+  {
+    "id": "module-7-020",
+    "en": "Observation"
+  },
+  {
+    "id": "module-7-021",
+    "en": "Basket cost"
+  },
+  {
+    "id": "module-7-022",
+    "en": "Change from previous year"
+  },
+  {
+    "id": "module-7-023",
+    "en": "Interpretation"
+  },
+  {
+    "id": "module-7-024",
+    "en": "Starting year"
+  },
+  {
+    "id": "module-7-025",
+    "en": "$100.00"
+  },
+  {
+    "id": "module-7-026",
+    "en": "—"
+  },
+  {
+    "id": "module-7-027",
+    "en": "Starting price level"
+  },
+  {
+    "id": "module-7-028",
+    "en": "Year 1"
+  },
+  {
+    "id": "module-7-029",
+    "en": "$110.00"
+  },
+  {
+    "id": "module-7-030",
+    "en": "+10%"
+  },
+  {
+    "id": "module-7-031",
+    "en": "Inflation"
+  },
+  {
+    "id": "module-7-032",
+    "en": "Year 2"
+  },
+  {
+    "id": "module-7-033",
+    "en": "$112.20"
+  },
+  {
+    "id": "module-7-034",
+    "en": "+2%"
+  },
+  {
+    "id": "module-7-035",
+    "en": "Disinflation: slower price increases"
+  },
+  {
+    "id": "module-7-036",
+    "en": "Alternative Year 2"
+  },
+  {
+    "id": "module-7-037",
+    "en": "$107.80"
+  },
+  {
+    "id": "module-7-038",
+    "en": "−2%"
+  },
+  {
+    "id": "module-7-039",
+    "en": "Deflation: prices fall in this basket"
+  },
+  {
+    "id": "module-7-040",
+    "en": "Falling inflation from 10% to 2% does not restore the basket to $100. It leaves prices increasing more slowly from an already higher level. <strong>Disinflation</strong> means the inflation rate declines; <strong>deflation</strong> means the overall price level falls."
+  },
+  {
+    "id": "module-7-041",
+    "en": "A cheaper phone can reflect better technology or stronger competition. Broad, sustained price declines accompanied by falling incomes and heavy debt can be more troubling. Fixed nominal repayments do not automatically shrink when a borrower&#39;s income falls. Ask whether falling prices reflect improved supply, weak demand, or both. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/external/pubs/nft/op/221/index.htm\">IMF: Deflation — Determinants, Risks, and Policy Options</a>"
+  },
+  {
+    "id": "module-7-042",
+    "en": "7.3 — Diagnose the shock before choosing the tool"
+  },
+  {
+    "id": "module-7-043",
+    "en": "A <strong>demand shock</strong> changes willingness or ability to spend. A <strong>supply shock</strong> changes the economy&#39;s ability or cost to produce. Their simple short-run patterns differ. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/supply-and-demand\">IMF: Supply and Demand</a>"
+  },
+  {
+    "id": "module-7-044",
+    "en": "Hypothetical shock"
+  },
+  {
+    "id": "module-7-045",
+    "en": "First mechanism"
+  },
+  {
+    "id": "module-7-046",
+    "en": "Typical initial pressure, other things equal"
+  },
+  {
+    "id": "module-7-047",
+    "en": "Households suddenly reduce purchases"
+  },
+  {
+    "id": "module-7-048",
+    "en": "Weaker demand"
+  },
+  {
+    "id": "module-7-049",
+    "en": "Lower output; less upward price pressure"
+  },
+  {
+    "id": "module-7-050",
+    "en": "Businesses receive a surge in orders"
+  },
+  {
+    "id": "module-7-051",
+    "en": "Stronger demand"
+  },
+  {
+    "id": "module-7-052",
+    "en": "Higher output; more upward price pressure near capacity"
+  },
+  {
+    "id": "module-7-053",
+    "en": "Energy supply is disrupted"
+  },
+  {
+    "id": "module-7-054",
+    "en": "Costlier or constrained production"
+  },
+  {
+    "id": "module-7-055",
+    "en": "Lower output; higher prices"
+  },
+  {
+    "id": "module-7-056",
+    "en": "Reliable new technology reduces costs"
+  },
+  {
+    "id": "module-7-057",
+    "en": "More productive supply"
+  },
+  {
+    "id": "module-7-058",
+    "en": "Higher potential output; less upward price pressure"
+  },
+  {
+    "id": "module-7-059",
+    "en": "These are starting directions, not guaranteed forecasts. Inventories, spare capacity, contracts, expectations, and international trade can modify them. A surge in orders may increase output substantially when factories have idle capacity. The same orders may mostly increase prices when production is already constrained."
+  },
+  {
+    "id": "module-7-060",
+    "en": "Several shocks can occur together. Expensive energy can reduce supply and household purchasing power. A government transfer may support demand at the same time. Inflation can then rise while growth slows. It is a mistake to force this mixed situation into a single story such as “all inflation comes from demand.” The IMF identifies demand, supply, and expectations as distinct channels affecting inflation. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/inflation\">IMF: Inflation — Prices on the Rise</a>"
+  },
+  {
+    "id": "module-7-061",
+    "en": "7.4 — Leverage turns a small asset move into a large equity move"
+  },
+  {
+    "id": "module-7-062",
+    "en": "<strong>Leverage</strong> means using debt or other contractual exposure to increase the scale of assets or risks relative to one&#39;s own capital. For this simple balance sheet, equity equals assets minus debt."
+  },
+  {
+    "id": "module-7-063",
+    "en": "Suppose a buyer purchases a $100 asset using $20 of personal funds and an $80 loan. Ignore interest, fees, taxes, and principal repayments. Debt stays fixed, and the asset is valued at the stated market price."
+  },
+  {
+    "id": "module-7-064",
+    "en": "Asset value"
+  },
+  {
+    "id": "module-7-065",
+    "en": "Debt owed"
+  },
+  {
+    "id": "module-7-066",
+    "en": "Equity: assets minus debt"
+  },
+  {
+    "id": "module-7-067",
+    "en": "Change in initial equity"
+  },
+  {
+    "id": "module-7-068",
+    "en": "$100"
+  },
+  {
+    "id": "module-7-069",
+    "en": "$80"
+  },
+  {
+    "id": "module-7-070",
+    "en": "$20"
+  },
+  {
+    "id": "module-7-071",
+    "en": "0%"
+  },
+  {
+    "id": "module-7-072",
+    "en": "$110"
+  },
+  {
+    "id": "module-7-073",
+    "en": "$80"
+  },
+  {
+    "id": "module-7-074",
+    "en": "$30"
+  },
+  {
+    "id": "module-7-075",
+    "en": "+50%"
+  },
+  {
+    "id": "module-7-076",
+    "en": "$90"
+  },
+  {
+    "id": "module-7-077",
+    "en": "$80"
+  },
+  {
+    "id": "module-7-078",
+    "en": "$10"
+  },
+  {
+    "id": "module-7-079",
+    "en": "−50%"
+  },
+  {
+    "id": "module-7-080",
+    "en": "$80"
+  },
+  {
+    "id": "module-7-081",
+    "en": "$80"
+  },
+  {
+    "id": "module-7-082",
+    "en": "$0"
+  },
+  {
+    "id": "module-7-083",
+    "en": "−100%"
+  },
+  {
+    "id": "module-7-084",
+    "en": "$75"
+  },
+  {
+    "id": "module-7-085",
+    "en": "$80"
+  },
+  {
+    "id": "module-7-086",
+    "en": "−$5"
+  },
+  {
+    "id": "module-7-087",
+    "en": "Negative equity"
+  },
+  {
+    "id": "module-7-088",
+    "en": "A 10% asset increase produces a 50% increase in equity; a 10% decline halves it. The starting asset-to-equity ratio is 5:1. In this simplified example, the percentage change in equity is five times the asset&#39;s percentage change. Actual loan terms, limited liability, collateral rules, and insolvency law determine what happens after a loss."
+  },
+  {
+    "id": "module-7-089",
+    "en": "Negative equity and missed payments are different problems. An owner can have positive equity but insufficient cash to make today&#39;s payment. Someone with negative equity might continue servicing a loan from stable income. The second situation is still vulnerable, particularly if refinancing or selling becomes necessary."
+  },
+  {
+    "id": "module-7-090",
+    "en": "Debt has another clock: <strong>maturity</strong>. An $80 loan may require only modest payments this year but full repayment next year. If replacement financing disappears, a borrower can face a crisis even before the asset&#39;s underlying income changes dramatically. Check the interest rate, repayment schedule, currency, collateral, and whether refinancing is required."
+  },
+  {
+    "id": "module-7-091",
+    "en": "7.5 — Follow the feedback loop"
+  },
+  {
+    "id": "module-7-092",
+    "en": "Imagine a fictional property market. Buyers expect prices to rise, lenders accept optimistic valuations, and financing becomes easier. More financed purchases raise prices. Higher collateral values support larger loans. Developers build, construction workers earn income, and local shops benefit. This is a possible expansion loop."
+  },
+  {
+    "id": "module-7-093",
+    "en": "Now suppose sales weaken. Owners and lenders reduce valuations. Some borrowers cannot refinance. Forced sales push prices lower, weakening collateral further. Lenders become cautious; developers cancel projects; workers spend less; shops receive fewer customers. A financial weakness has reached the real economy."
+  },
+  {
+    "id": "module-7-094",
+    "en": "<strong>Expansion loop:</strong> easier credit → more purchases → higher collateral value → room for more credit."
+  },
+  {
+    "id": "module-7-095",
+    "en": "<strong>Stress loop:</strong> lower prices → weaker borrower balance sheets → tighter credit or forced sales → weaker spending and further price pressure."
+  },
+  {
+    "id": "module-7-096",
+    "en": "The mechanism is reinforced when many participants rely on similar collateral and refinancing sources. It is less powerful when borrowers have larger equity buffers, stable long-term funding, and income that can service debt. This fictional illustration connects credit supply, housing, banks, and firms; a BIS working paper models those interacting sectors in studying a boom and bust. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bis.org/publications/working-paper-885-credit-supply-driven-boom-bust-cycles\">BIS: Credit Supply Driven Boom-Bust Cycles</a>"
+  },
+  {
+    "id": "module-7-097",
+    "en": "To investigate a boom, ask: <strong>What supports the payments?</strong> Rental income, wages, business profits, and the hope of selling to the next buyer have different implications. A rising market price alone does not answer that question."
+  },
+  {
+    "id": "module-7-098",
+    "en": "7.6 — Liquidity and solvency are different repair jobs"
+  },
+  {
+    "id": "module-7-099",
+    "en": "<strong>Liquidity</strong> concerns meeting obligations when payment is due. <strong>Solvency</strong> concerns whether assets and income prospects adequately support obligations. Bank capital is a loss-absorbing source of funding; it is not the same thing as cash kept in a vault. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/quarterly-bulletin/2013/q3/bank-capital-and-liquidity\">Bank of England: Bank Capital and Liquidity</a>"
+  },
+  {
+    "id": "module-7-100",
+    "en": "Take an invented bank with $120 of assets, $110 of liabilities, and $10 of equity. Of the assets, $10 is immediately available cash and $110 is loans that are expected to be repaid over time. If customers request $25 immediately, the bank has a $15 cash gap. That illustrates a liquidity problem, assuming the loans retain their stated value. If loan losses instead reduce total assets to $105, liabilities of $110 exceed assets: equity is negative. That illustrates a solvency problem."
+  },
+  {
+    "id": "module-7-101",
+    "en": "Real asset values under stress are uncertain. A bank forced to sell loans quickly may obtain a lower price, so a liquidity problem can damage solvency. Conversely, doubts about solvency can cause funding to disappear and create a liquidity problem. The distinction matters even when the problems interact."
+  },
+  {
+    "id": "module-7-102",
+    "en": "A <strong>bank run</strong> happens when withdrawals arrive faster than a bank can accommodate. Depositors&#39; fear can become contagious, disrupting payments and credit across institutions. Regulation, deposit protection, and requirements for liquid assets and capital seek to reduce this vulnerability. The exact protections vary across jurisdictions. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/explainers/why-do-we-regulate-banks\">Bank of England: Why Do We Regulate Banks?</a>"
+  },
+  {
+    "id": "module-7-103",
+    "en": "7.7 — Policy can cushion a shock, but cannot erase every cost"
+  },
+  {
+    "id": "module-7-104",
+    "en": "Monetary policy influences interest rates and broader financing conditions, which affect spending and employment. Its effects depend on how lenders and borrowers respond. A lower policy rate cannot ensure that a worried household borrows or that a bank finances a weak borrower. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm\">Federal Reserve: Monetary Policy</a>"
+  },
+  {
+    "id": "module-7-105",
+    "en": "An adverse supply shock creates a harder choice. Raising rates may limit wider inflation pressures but can also weaken activity. Lower rates may support spending but risk additional inflation pressure when supply is constrained. Policy assessments therefore consider the shock&#39;s persistence and inflation expectations, not just today&#39;s headline. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm\">Federal Reserve: Navigating Economic Shocks</a>"
+  },
+  {
+    "id": "module-7-106",
+    "en": "Fiscal policy changes taxes, transfers, and public spending. <strong>Automatic stabilizers</strong>, such as income-linked taxes and unemployment support, can cushion a slowdown under existing rules. New discretionary measures require design and implementation. Their effects depend on available capacity, targeting, financing, and the ability to change the program as conditions evolve. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/external/pubs/ft/fandd/basics/36-fiscal-policy.htm\">IMF: Fiscal Policy — Taking and Giving Away</a>"
+  },
+  {
+    "id": "module-7-107",
+    "en": "Financial-stability tools address a different repair problem: keeping essential payments and credit functioning while losses are recognized. Providing temporary liquidity does not by itself replace missing capital. Bank resolution can reorganize a failing institution and allocate losses while protecting critical services, under the rules of the jurisdiction. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/paper/2023/the-bank-of-englands-approach-to-resolution\">Bank of England: The Approach to Resolution</a>"
+  },
+  {
+    "id": "module-7-108",
+    "en": "7.8 — Read the dashboard without inventing a timetable"
+  },
+  {
+    "id": "module-7-109",
+    "en": "Use a set of questions rather than a single magic indicator:"
+  },
+  {
+    "id": "module-7-110",
+    "en": "<strong>Activity:</strong> Are output, employment, sales, and investment strengthening together?"
+  },
+  {
+    "id": "module-7-111",
+    "en": "<strong>Prices:</strong> Is inflation broad or concentrated? Are prices accelerating or merely high?"
+  },
+  {
+    "id": "module-7-112",
+    "en": "<strong>Debt:</strong> Are repayments rising relative to income? Who must refinance soon?"
+  },
+  {
+    "id": "module-7-113",
+    "en": "<strong>Funding:</strong> Are lenders tightening terms? Can essential borrowers still obtain finance?"
+  },
+  {
+    "id": "module-7-114",
+    "en": "<strong>Balance sheets:</strong> Who bears falling collateral values or currency mismatches?"
+  },
+  {
+    "id": "module-7-115",
+    "en": "<strong>Policy:</strong> Which problem is each tool addressing, and how long might transmission take?"
+  },
+  {
+    "id": "module-7-116",
+    "en": "Credit growth, asset prices, and unemployment can be causes, consequences, or both. Data are revised; sectors move at different speeds; and even professional forecasts miss turning points. The map improves diagnosis, but it does not supply a reliable date for the next recession. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/external/pubs/ft/fandd/2009/03/basics.htm\">IMF: What Is a Recession?</a>"
+  },
+  {
+    "id": "module-7-117",
+    "en": "<strong>Exploration exercise:</strong> Draw one reinforcing loop and one stabilizing loop for a fictional town. Label every arrow with a mechanism. Replace “A causes B” with “A puts pressure on B if…” whenever the connection depends on a condition. Explain what evidence would make you change the story."
+  },
+  {
+    "id": "module-7-118",
+    "en": "Module 7 checkpoint — four questions"
+  },
+  {
+    "id": "module-7-119",
+    "en": "<strong>Question 1.</strong> Inflation falls from 8% to 3%. Which statement follows?"
+  },
+  {
+    "id": "module-7-120",
+    "en": "A. The general price level has fallen by 5%."
+  },
+  {
+    "id": "module-7-121",
+    "en": "B. The general price level is rising more slowly, if those rates refer to comparable periods."
+  },
+  {
+    "id": "module-7-122",
+    "en": "C. Every household&#39;s expenses have fallen."
+  },
+  {
+    "id": "module-7-123",
+    "en": "<strong>Answer: B.</strong> Both inflation rates are positive. The rate of increase falls, but the price level continues to rise. Individual households can experience different changes."
+  },
+  {
+    "id": "module-7-124",
+    "en": "<strong>Question 2.</strong> An asset costs $200, funded with $160 of fixed debt and $40 of equity. Its value falls to $180. Ignore all costs. What is the remaining equity?"
+  },
+  {
+    "id": "module-7-125",
+    "en": "A. $36, a 10% equity decline."
+  },
+  {
+    "id": "module-7-126",
+    "en": "B. $20, a 50% equity decline."
+  },
+  {
+    "id": "module-7-127",
+    "en": "C. $180, because the debt does not change asset value."
+  },
+  {
+    "id": "module-7-128",
+    "en": "<strong>Answer: B.</strong> Equity is $180 − $160 = $20. A 10% asset decline has halved the original $40 of equity."
+  },
+  {
+    "id": "module-7-129",
+    "en": "<strong>Question 3.</strong> A bank has valuable long-term loans but insufficient immediately available cash to meet withdrawals. What is the initial problem described?"
+  },
+  {
+    "id": "module-7-130",
+    "en": "A. Liquidity, though forced sales or new information could also damage solvency."
+  },
+  {
+    "id": "module-7-131",
+    "en": "B. Solvency has necessarily failed."
+  },
+  {
+    "id": "module-7-132",
+    "en": "C. Neither, because all assets can always be sold at their stated values."
+  },
+  {
+    "id": "module-7-133",
+    "en": "<strong>Answer: A.</strong> Timing and immediate payment capacity are central. The information does not prove that asset values are inadequate to cover liabilities."
+  },
+  {
+    "id": "module-7-134",
+    "en": "<strong>Question 4.</strong> Imported energy becomes more expensive while household spending weakens. Which interpretation is strongest?"
+  },
+  {
+    "id": "module-7-135",
+    "en": "A. Higher interest rates will directly create more energy supply."
+  },
+  {
+    "id": "module-7-136",
+    "en": "B. Lower rates guarantee falling inflation and higher growth."
+  },
+  {
+    "id": "module-7-137",
+    "en": "C. Supply and demand pressures coexist; outcomes depend on persistence, expectations, credit conditions, and policy responses."
+  },
+  {
+    "id": "module-7-138",
+    "en": "<strong>Answer: C.</strong> Mixed shocks create conditional pathways and tradeoffs. Identify mechanisms before predicting outcomes."
+  },
+  {
+    "id": "capstone-001",
+    "en": "<strong>Mission:</strong> Connect Modules 3–7 using a fictional economy. All amounts, rates, entities, and changes below are invented for learning. The scenario is not a forecast or a description of current markets."
+  },
+  {
+    "id": "capstone-002",
+    "en": "The starting position"
+  },
+  {
+    "id": "capstone-003",
+    "en": "Harborland uses the harbor dollar, abbreviated <strong>H$</strong>, and imports much of its energy. A manufacturer earns revenue mostly in H$ but buys imported fuel in US dollars. Its household customers have a mixture of fixed-rate and variable-rate loans. Local banks finance businesses and housing; some firms also borrow directly in US dollars. The government runs public services, and the central bank manages monetary conditions under Harborland&#39;s hypothetical framework."
+  },
+  {
+    "id": "capstone-004",
+    "en": "Now three events arrive together: the US-dollar price of imported energy increases by 20%; the exchange rate moves from H$5 to H$6 per US dollar; and households reduce discretionary spending because they feel less secure about employment."
+  },
+  {
+    "id": "capstone-005",
+    "en": "Do not jump directly from these events to “stocks fall” or “rates rise.” Travel through the mechanisms, recording the conditions at every junction."
+  },
+  {
+    "id": "capstone-006",
+    "en": "Junction 1 — Real resources and international prices"
+  },
+  {
+    "id": "capstone-007",
+    "en": "Suppose imported fuel initially costs US$100 per unit. At H$5 per dollar, its local-currency cost is H$500. After the energy price rises to US$120 and the exchange rate moves to H$6 per dollar, the cost becomes H$720: <strong>44% more</strong>, because 1.20 × 1.20 = 1.44."
+  },
+  {
+    "id": "capstone-008",
+    "en": "This is also a lesson about quotation. One US dollar now buys 20% more H$. The H$ has fallen from US$0.20 to about US$0.1667, a decline of approximately 16.7% in its US-dollar value. State the quotation before saying that a currency moved by a percentage."
+  },
+  {
+    "id": "capstone-009",
+    "en": "If the manufacturer cannot substitute inputs or improve efficiency quickly, its cost pressure rises. It may increase prices, accept lower margins, reduce output, or combine these responses. Competition and demand determine how much it can pass on. These are conditional inferences from the invented scenario. International invoicing and borrowing currencies affect how exchange rates reach the economy. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/en/publications/staff-discussion-notes/issues/2020/07/16/dominant-currencies-and-external-adjustment-48618\">IMF: Dominant Currencies and External Adjustment</a>"
+  },
+  {
+    "id": "capstone-010",
+    "en": "Junction 2 — Money, credit, and repayment"
+  },
+  {
+    "id": "capstone-011",
+    "en": "A firm owes US$1 million without a currency hedge. The H$ value of that unchanged principal increases from H$5 million to H$6 million. If revenues remain in H$, the mismatch becomes harder to manage. A firm earning sufficient US-dollar revenue could have an offsetting natural hedge; the exchange-rate move alone does not tell us its net exposure."
+  },
+  {
+    "id": "capstone-012",
+    "en": "Separately, assume a household owes H$200,000 on a variable-rate, interest-only loan. A rate change from 4% to 6% raises annual interest from H$8,000 to H$12,000, or about H$333 more each month. Principal is unchanged. A fixed-rate household need not experience the same immediate change, although refinancing later may expose it to new rates."
+  },
+  {
+    "id": "capstone-013",
+    "en": "Borrowers may reduce spending to meet repayments. If defaults rise, lenders may tighten access to credit. The severity depends on income buffers, loan terms, and lenders&#39; ability to absorb losses. Compare repayment cash flows before treating all borrowers as equally vulnerable."
+  },
+  {
+    "id": "capstone-014",
+    "en": "Junction 3 — Government and central-bank choices"
+  },
+  {
+    "id": "capstone-015",
+    "en": "Harborland&#39;s central bank sees energy-driven price pressure and weaker private demand. It must assess whether inflation will spread and persist, how expectations are changing, and how fragile financing conditions have become. A rate increase may restrain spending; it cannot directly produce missing fuel. A cut may ease borrowing costs, but its inflation consequences depend on capacity and expectations. Monetary policy works through financial conditions and behavior. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm\">Federal Reserve: Monetary Policy</a>"
+  },
+  {
+    "id": "capstone-016",
+    "en": "The government could provide targeted household support or invest in energy reliability. Support helps recipients&#39; budgets but requires funding and may add demand. Investment may improve future capacity while taking time to deliver. Compare relief now with capacity later. Fiscal choices should be judged by their design and financing, not simply by the size of the announcement. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/external/pubs/ft/fandd/basics/36-fiscal-policy.htm\">IMF: Fiscal Policy</a>"
+  },
+  {
+    "id": "capstone-017",
+    "en": "Junction 4 — Assets and expectations"
+  },
+  {
+    "id": "capstone-018",
+    "en": "The manufacturer&#39;s expected profits might weaken through higher costs and reduced orders. Investors might require more compensation for uncertainty. Those two changes would put downward pressure on its valuation, other things equal. Yet a competitor with cheaper domestic energy could benefit, while an exporter earning US dollars might gain local-currency revenue."
+  },
+  {
+    "id": "capstone-019",
+    "en": "For an existing fixed-coupon bond, a higher required market yield lowers its price if promised cash flows stay unchanged. But weaker demand might instead lead investors to expect future rate cuts. Credit concerns can also change the yield on a corporate bond differently from that on a government bond. There is no single asset-market outcome implied by the shock. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-86\">SEC: Fixed-Rate Bonds and Interest Rates</a>"
+  },
+  {
+    "id": "capstone-020",
+    "en": "Junction 5 — Choose a branch, then test it"
+  },
+  {
+    "id": "capstone-021",
+    "en": "<strong>Branch A: Contained disruption.</strong> Energy supply recovers, borrowers maintain payments, and confidence stabilizes. Inflation pressure eases while spending and production improve. Check input prices, credit losses, and new orders before accepting this branch."
+  },
+  {
+    "id": "capstone-022",
+    "en": "<strong>Branch B: Persistent cost pressure.</strong> Energy remains scarce and inflation spreads while output weakens. Policy tradeoffs become harder. Check the breadth of inflation, wages, and expectations."
+  },
+  {
+    "id": "capstone-023",
+    "en": "<strong>Branch C: Financial amplification.</strong> Refinancing failures force asset sales, collateral weakens, credit tightens, and spending falls further. Check debt maturities, cash flows, and bank loss-absorbing capacity."
+  },
+  {
+    "id": "capstone-024",
+    "en": "The branches are analytical possibilities, not probabilities. Your completed mission is a defensible explanation: <strong>who is exposed, what changes first, which conditions transmit the shock, and what evidence would change your view.</strong>"
+  }
+]

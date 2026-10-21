@@ -1,0 +1,430 @@
+[
+  {
+    "id": "module-3-001",
+    "en": "<strong>Map region:</strong> the payment network and the agreements that let people use resources today in exchange for future payments."
+  },
+  {
+    "id": "module-3-002",
+    "en": "<strong>Your mission:</strong> explain what the money in a bank account represents; follow a loan from creation to repayment; distinguish interest, liquidity, capital, and leverage; and identify the conditions under which borrowing improves or weakens a household or business."
+  },
+  {
+    "id": "module-3-003",
+    "en": "All amounts below are hypothetical currency units, written as CU. They are teaching examples, not descriptions of a current country or market."
+  },
+  {
+    "id": "module-3-004",
+    "en": "3.1 Money is useful because other people accept it"
+  },
+  {
+    "id": "module-3-005",
+    "en": "Imagine an engineer trying to exchange two hours of work for groceries. The grocer might not need engineering work today. A widely accepted means of payment allows the engineer to sell work to one person and buy food from another."
+  },
+  {
+    "id": "module-3-006",
+    "en": "Money performs three familiar jobs: a <strong>medium of exchange</strong> for payments, a <strong>unit of account</strong> for quoting prices and recording debts, and a <strong>store of value</strong> that carries purchasing power across time. The last job can work imperfectly: a balance of 1,000 CU remains 1,000 CU even if the things it buys become more expensive."
+  },
+  {
+    "id": "module-3-007",
+    "en": "Keep three objects separate. <strong>Cash</strong> is physical money. <strong>Bank deposits</strong> are account balances usable for payments and claims on the bank. <strong>Central bank reserves</strong> are balances eligible institutions hold at the central bank, used for settlement and monetary operations. A household normally pays a shop with its deposit; its bank may use reserves to settle with the shop&#39;s bank. The Bank of England describes this distinction for the UK; the institutions and definitions used in monetary statistics vary by country. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/explainers/how-is-money-created\">Bank of England: How is money created?</a>"
+  },
+  {
+    "id": "module-3-008",
+    "en": "In the Red Alert analogy, the payment system is the network that allows supplies to move. The actual supplies are workers&#39; time, food, electricity, machines, and knowledge. More payment capacity does not, by itself, produce more supplies."
+  },
+  {
+    "id": "module-3-009",
+    "en": "3.2 A bank deposit is somebody else&#39;s liability"
+  },
+  {
+    "id": "module-3-010",
+    "en": "A <strong>balance sheet</strong> records what an entity owns and owes at a particular moment:"
+  },
+  {
+    "id": "module-3-011",
+    "en": "<strong>Assets − liabilities = equity, or net worth.</strong>"
+  },
+  {
+    "id": "module-3-012",
+    "en": "Consider a household with 12,000 CU in deposits, a vehicle worth 8,000 CU, and a 5,000 CU loan. Its assets total 20,000 CU and its net worth is 15,000 CU. Its monthly salary is a flow of income, not another asset to add in full to that snapshot."
+  },
+  {
+    "id": "module-3-013",
+    "en": "Now change viewpoint. The household&#39;s 12,000 CU deposit is an asset to the household and a liability to its bank: the bank must honor permitted withdrawals and transfers. The household&#39;s loan is its liability and the bank&#39;s asset: the bank has a contractual right to future payments."
+  },
+  {
+    "id": "module-3-014",
+    "en": "This paired view stops a common mistake. Adding up every person&#39;s financial claims without subtracting the corresponding obligations can make the same underlying relationship look like newly created net wealth."
+  },
+  {
+    "id": "module-3-015",
+    "en": "3.3 Follow a bank loan through four steps"
+  },
+  {
+    "id": "module-3-016",
+    "en": "Suppose a bakery borrows 50,000 CU from Bank A to purchase an oven."
+  },
+  {
+    "id": "module-3-017",
+    "en": "<strong>Step 1 — origination.</strong> Bank A records a 50,000 CU loan asset and credits a 50,000 CU deposit to the bakery. The bakery gains a deposit asset and an equal debt liability. In this simplified transaction, bank deposit money increases, while the bakery&#39;s net worth does not jump by 50,000 CU. Commercial-bank lending commonly creates deposits in this way; it is not simply a mechanical redistribution of previously deposited cash. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy\">Bank of England: Money creation in the modern economy</a>"
+  },
+  {
+    "id": "module-3-018",
+    "en": "<strong>Step 2 — purchase.</strong> The bakery pays the oven supplier, which uses Bank B. The bakery&#39;s deposit decreases and the supplier&#39;s deposit increases. Bank A must settle the payment with Bank B, typically by transferring central bank money through the relevant settlement arrangements. Bank A therefore needs usable settlement funds or a way to obtain them. Writing a loan into its accounts does not remove that need."
+  },
+  {
+    "id": "module-3-019",
+    "en": "<strong>Step 3 — production.</strong> The bakery now has an oven instead of the deposit, while its debt remains. Whether the loan was economically useful depends on what happens next. Perhaps the oven reduces energy use, allows more sales, or breaks down. Financial accounting records the transaction; business conditions determine its success."
+  },
+  {
+    "id": "module-3-020",
+    "en": "<strong>Step 4 — repayment.</strong> Suppose the bakery later pays 10,000 CU of loan principal from a deposit at its lending bank. The deposit liability and outstanding loan asset both fall by 10,000 CU. Repayment of bank-loan principal contracts deposit money in the simplified banking system. Interest is different: it is income to the bank, and its effects depend on how the bank spends, distributes, or retains that income. A default is also different from repayment: writing off a bad loan reduces the bank&#39;s assets and capital; it does not automatically erase a deposit that the borrower already paid to someone else. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/explainers/how-is-money-created\">Bank of England: How is money created?</a>"
+  },
+  {
+    "id": "module-3-021",
+    "en": "If an ordinary person lends another person 500 CU by bank transfer, the lender&#39;s deposit falls and the borrower&#39;s rises. Total deposits are unchanged by that transfer. Credit can exist without creating additional bank money. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/paper/2021/new-forms-of-digital-money\">Bank of England: New forms of digital money, Box A</a>"
+  },
+  {
+    "id": "module-3-022",
+    "en": "3.4 Why banks cannot lend without limits"
+  },
+  {
+    "id": "module-3-023",
+    "en": "The bank needs creditworthy customers, acceptable expected returns, settlement liquidity, and compliance with capital and other regulatory requirements. Creating a matching deposit is the accounting mechanism; it is not a guarantee that the loan can be funded profitably or repaid."
+  },
+  {
+    "id": "module-3-024",
+    "en": "<strong>Liquidity</strong> concerns meeting payments when due. <strong>Capital</strong> is a loss-absorbing cushion. The two are related but different. Suppose a simplified bank has assets worth 1,000 CU, liabilities of 920 CU, and equity of 80 CU. A 30 CU asset loss reduces equity to 50 CU. Giving the bank a short-term loan can help it make payments, but it also adds an obligation; it does not simply restore the lost equity. Bank capital requirements are tied to risks and can include multiple buffers. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankingsupervision.europa.eu/about/banking-supervision-explained/html/hold_capital.en.html\">ECB Banking Supervision: Why do banks need capital?</a>"
+  },
+  {
+    "id": "module-3-025",
+    "en": "For an everyday analogy, a homeowner can have positive net worth yet lack cash for tomorrow&#39;s bill. Conversely, someone can have plenty of cash today but owe more than all their assets are worth. A bank can also encounter either problem."
+  },
+  {
+    "id": "module-3-026",
+    "en": "3.5 Interest is a price with several ingredients"
+  },
+  {
+    "id": "module-3-027",
+    "en": "<strong>Principal</strong> is the amount borrowed. <strong>Interest</strong> is the charge for using it. <strong>Maturity</strong> is when payment becomes due. <strong>Collateral</strong> is an asset pledged to support repayment. A <strong>fixed rate</strong> remains unchanged under the contract; a <strong>floating rate</strong> can reset according to its terms."
+  },
+  {
+    "id": "module-3-028",
+    "en": "A 10,000 CU interest-only loan at 6% costs 600 CU in annual interest while the principal remains outstanding. A fully amortizing loan repays principal gradually, so its payment calculation differs. A quoted rate alone does not tell you the total cost: fees, compounding, repayment timing, and contract terms matter."
+  },
+  {
+    "id": "module-3-029",
+    "en": "A lending rate can reflect the underlying funding rate, expected default losses, operating costs, capital costs, and the lender&#39;s margin. If a policy rate falls by one percentage point but a borrower&#39;s perceived risk rises, that borrower&#39;s offered rate may still increase."
+  },
+  {
+    "id": "module-3-030",
+    "en": "Distinguish <strong>nominal</strong> from <strong>real</strong> values. Nominal amounts are stated in currency; real amounts adjust for purchasing power. The common approximation is real interest rate ≈ nominal interest rate − inflation. For decisions before inflation is known, expected inflation is the relevant estimate. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me/html/nominal_and_real_interest_rates.en.html\">ECB: Nominal and real interest rates</a>"
+  },
+  {
+    "id": "module-3-031",
+    "en": "Original example: saving 1,000 CU at 4% gives 1,040 CU after one year. If the price of a representative basket rises 3%, the exact purchasing-power gain is 1.04 ÷ 1.03 − 1, or about 0.97%. If the basket rises 7%, the same deposit has a real loss of about 2.80%. A negative real rate does not cancel the nominal payment required by a loan contract."
+  },
+  {
+    "id": "module-3-032",
+    "en": "3.6 Leverage magnifies changes in the owner&#39;s stake"
+  },
+  {
+    "id": "module-3-033",
+    "en": "<strong>Leverage</strong> means using borrowed funds or other obligations to increase exposure relative to equity."
+  },
+  {
+    "id": "module-3-034",
+    "en": "Consider two hypothetical owners of identical 100,000 CU productive assets. One pays entirely with equity. The other contributes 20,000 CU and borrows 80,000 CU. Before interest and fees:"
+  },
+  {
+    "id": "module-3-035",
+    "en": "Asset value after a change"
+  },
+  {
+    "id": "module-3-036",
+    "en": "Unleveraged owner&#39;s equity"
+  },
+  {
+    "id": "module-3-037",
+    "en": "Leveraged owner&#39;s equity"
+  },
+  {
+    "id": "module-3-038",
+    "en": "110,000 CU"
+  },
+  {
+    "id": "module-3-039",
+    "en": "110,000 CU: a 10% gain"
+  },
+  {
+    "id": "module-3-040",
+    "en": "30,000 CU: a 50% gain"
+  },
+  {
+    "id": "module-3-041",
+    "en": "90,000 CU"
+  },
+  {
+    "id": "module-3-042",
+    "en": "90,000 CU: a 10% loss"
+  },
+  {
+    "id": "module-3-043",
+    "en": "10,000 CU: a 50% loss"
+  },
+  {
+    "id": "module-3-044",
+    "en": "80,000 CU"
+  },
+  {
+    "id": "module-3-045",
+    "en": "80,000 CU: a 20% loss"
+  },
+  {
+    "id": "module-3-046",
+    "en": "0 CU: equity exhausted"
+  },
+  {
+    "id": "module-3-047",
+    "en": "The debt remains 80,000 CU in this example. Interest makes the actual outcome less favorable, and loan terms may force a sale before the owner chooses one. Real recovery and personal liability depend on the contract and local law."
+  },
+  {
+    "id": "module-3-048",
+    "en": "Borrowing can bring spending forward. It also assigns part of future cash flow to debt service. A bakery expecting 15,000 CU in annual cash available for debt payments might manage a 6,000 CU obligation. If that cash falls to 4,000 CU, a profitable business over several years could still face an immediate payment problem. Examine the amount, timing, and reliability of cash flows, not just an optimistic long-term average."
+  },
+  {
+    "id": "module-3-049",
+    "en": "3.7 Misconceptions to clear from the map"
+  },
+  {
+    "id": "module-3-050",
+    "en": "<strong>“Every loan creates new money.”</strong> A commercial-bank loan can create a deposit; an ordinary transfer-funded loan reallocates existing deposits."
+  },
+  {
+    "id": "module-3-051",
+    "en": "<strong>“If banks create deposits, deposits and funding do not matter.”</strong> Payments can leave a bank; it must obtain settlement liquidity and manage funding costs and risks."
+  },
+  {
+    "id": "module-3-052",
+    "en": "<strong>“A loan makes the borrower richer immediately.”</strong> It initially creates an asset and an obligation. Wealth depends on what the resources achieve afterward."
+  },
+  {
+    "id": "module-3-053",
+    "en": "<strong>“Inflation makes every debt easy to repay.”</strong> Nominal debt service still requires cash; income may not rise with prices, and floating interest rates may reset."
+  },
+  {
+    "id": "module-3-054",
+    "en": "3.8 Check yourself"
+  },
+  {
+    "id": "module-3-055",
+    "en": "<strong>Question 1.</strong> Your assets are 40,000 CU and debts are 15,000 CU. You borrow 5,000 CU and keep it in your account. What happens to assets, debt, and net worth?"
+  },
+  {
+    "id": "module-3-056",
+    "en": "<strong>Answer.</strong> Assets rise to 45,000 CU, debt rises to 20,000 CU, and net worth remains 25,000 CU before fees. Your liquidity changes; your net worth does not rise automatically."
+  },
+  {
+    "id": "module-3-057",
+    "en": "<strong>Question 2.</strong> A bank grants a 20,000 CU loan, and the borrower pays a supplier at another bank. Does the deposit disappear from the banking system?"
+  },
+  {
+    "id": "module-3-058",
+    "en": "<strong>Answer.</strong> No. It moves to the supplier&#39;s bank, while the originating bank has a settlement obligation. Spending and principal repayment are different operations."
+  },
+  {
+    "id": "module-3-059",
+    "en": "<strong>Question 3.</strong> An asset costs 60,000 CU, financed with 15,000 CU equity and 45,000 CU debt. It falls to 54,000 CU. What is the owner&#39;s equity loss before interest?"
+  },
+  {
+    "id": "module-3-060",
+    "en": "<strong>Answer.</strong> Equity falls from 15,000 CU to 9,000 CU, a 40% loss. The asset fell 10%, but the owner&#39;s smaller equity stake absorbed the whole 6,000 CU decline."
+  },
+  {
+    "id": "module-3-061",
+    "en": "<strong>Region unlocked when:</strong> you can draw both sides of a bank loan and explain why money creation, wealth creation, and payment capacity are different questions."
+  },
+  {
+    "id": "module-4-001",
+    "en": "<strong>Map region:</strong> public spending, taxation, borrowing, monetary policy, and the institutions that shape financial conditions."
+  },
+  {
+    "id": "module-4-002",
+    "en": "<strong>Your mission:</strong> distinguish fiscal from monetary policy; follow how a rate change reaches households and firms; read a deficit without confusing it with debt; and explain why policy effects depend on economic conditions."
+  },
+  {
+    "id": "module-4-003",
+    "en": "4.1 Two policy systems, different instruments"
+  },
+  {
+    "id": "module-4-004",
+    "en": "<strong>Fiscal policy</strong> concerns government spending, taxes, and transfers. Governments can purchase public services and infrastructure, collect revenue, and redistribute income. <strong>Monetary policy</strong> concerns financial conditions, especially interest rates and central bank operations. Its aims and legal framework differ across countries."
+  },
+  {
+    "id": "module-4-005",
+    "en": "The Federal Reserve&#39;s US mandate includes maximum employment and stable prices. The ECB&#39;s primary objective is price stability for the euro area. Central bank independence means a particular institutional arrangement for pursuing legally assigned objectives, not unlimited authority over every part of the economy. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm\">Federal Reserve: The Fed Explained, monetary policy</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.ecb.europa.eu/mopo/intro/benefits/html/index.en.html\">ECB: Benefits of price stability</a>"
+  },
+  {
+    "id": "module-4-006",
+    "en": "In the game analogy, fiscal choices allocate resources to public projects and services; monetary choices influence the financing conditions under which many participants act. Policymakers face incomplete information, competing objectives, and implementation delays."
+  },
+  {
+    "id": "module-4-007",
+    "en": "4.2 Read a government budget as flows and stocks"
+  },
+  {
+    "id": "module-4-008",
+    "en": "Suppose a government receives 900 million CU in revenue during a year. It spends 950 million on programs and 50 million on interest."
+  },
+  {
+    "id": "module-4-009",
+    "en": "Total expenditure is 1,000 million CU."
+  },
+  {
+    "id": "module-4-010",
+    "en": "The <strong>overall deficit</strong> is 100 million CU."
+  },
+  {
+    "id": "module-4-011",
+    "en": "The <strong>primary deficit</strong>, excluding interest, is 50 million CU."
+  },
+  {
+    "id": "module-4-012",
+    "en": "If opening debt is 2,000 million CU and the government finances the deficit entirely by borrowing, debt ends at 2,100 million CU, assuming no other debt adjustments."
+  },
+  {
+    "id": "module-4-013",
+    "en": "The deficit is a flow over a period; debt is an outstanding stock. The primary balance separates current revenue and non-interest spending from interest due on existing debt. Real government accounts can also include cash balances, asset transactions, valuation changes, and other adjustments, so changes in debt need not exactly equal the reported deficit. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/external/datamapper/datasets/FPP\">IMF: Public Finances in Modern History</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/-/media/files/publications/tnm/2021/english/tnmea2021005.pdf\">IMF: Basic Debt Dynamics</a>"
+  },
+  {
+    "id": "module-4-014",
+    "en": "Taxation also affects incentives and distribution. For example, an income tax affects take-home pay; a consumption tax affects purchase prices; different allowances and tax bases change who actually pays. The person legally responsible for remitting a tax need not bear its entire economic cost: prices, wages, or profits can adjust."
+  },
+  {
+    "id": "module-4-015",
+    "en": "4.3 Fiscal policy can support demand and productive capacity"
+  },
+  {
+    "id": "module-4-016",
+    "en": "During a downturn, tax receipts can fall and certain benefit payments can rise without a new policy decision. These <strong>automatic stabilizers</strong> partly cushion private incomes. A government can also make a discretionary change, such as a temporary transfer or a new transport project. Spending and taxation influence total demand, while infrastructure and education can also affect future productive capacity. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/external/pubs/ft/fandd/basics/36-fiscal-policy.htm\">IMF: Fiscal Policy—Taking and Giving Away</a>"
+  },
+  {
+    "id": "module-4-017",
+    "en": "Original teaching model: a town pays 1 million CU for additional repairs using otherwise idle local workers and equipment. Recipients spend 60% of each additional round of income on locally produced output. If this pattern repeated indefinitely, with no capacity limits or other responses, the arithmetic would be 1 + 0.6 + 0.36 + … = 2.5 million CU of additional output."
+  },
+  {
+    "id": "module-4-018",
+    "en": "That <strong>2.5 multiplier is a property of the assumptions, not a forecast</strong>. Some spending may go to imports. Taxes and saving interrupt subsequent rounds. Contractors may already be fully booked, so new public demand raises prices or displaces another project. Interest rates and private confidence may change. The relevant question is which workers, machines, materials, and financing were available, and what other spending responds."
+  },
+  {
+    "id": "module-4-019",
+    "en": "Transfers are not themselves purchases of newly produced output in the GDP expenditure identity. Their contribution to demand depends on recipients&#39; subsequent spending. Likewise, public borrowing creates a financing obligation; the economic value of a project depends on its costs and benefits."
+  },
+  {
+    "id": "module-4-020",
+    "en": "4.4 Follow the interest-rate transmission chain"
+  },
+  {
+    "id": "module-4-021",
+    "en": "A central bank changes its policy setting. That influences market rates and funding costs. Banks and markets adjust lending and saving terms. Households and businesses reconsider spending, production, and hiring. Demand relative to productive capacity changes, influencing inflation. Expectations and exchange rates can provide additional channels. Transmission is indirect and takes time. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.federalreserve.gov/faqs/money_12856.htm\">Federal Reserve: How monetary policy affects inflation and employment</a>"
+  },
+  {
+    "id": "module-4-022",
+    "en": "Original example: a company has 1 million CU of floating-rate debt. If its contractual rate falls from 7% to 6%, annual interest falls from 70,000 to 60,000 CU while principal is unchanged. The company might use the 10,000 CU difference for hiring, debt repayment, or additional cash. A fixed-rate borrower sees no immediate contractual change. A saver whose deposit rate falls receives less interest."
+  },
+  {
+    "id": "module-4-023",
+    "en": "Transmission depends on <strong>pass-through</strong>. Suppose the policy rate falls by one percentage point, but banks become worried about defaults and increase their risk margin by the same amount. Some borrowers may see little change in offered rates or find that loans remain unavailable. If customers are disappearing, a cheaper loan may not persuade a business to buy a new machine."
+  },
+  {
+    "id": "module-4-024",
+    "en": "Similarly, higher rates can discourage interest-sensitive demand, but they cannot directly grow crops or repair an interrupted energy supply. Policymakers must judge whether an inflation shock is likely to fade, spread into wages and other prices, or change expectations. A given action can impose different costs on borrowers, savers, workers, and sectors."
+  },
+  {
+    "id": "module-4-025",
+    "en": "4.5 Reserve requirements, asset purchases, and liquidity support"
+  },
+  {
+    "id": "module-4-026",
+    "en": "<strong>Reserve requirements</strong> specify certain reserve holdings relative to defined liabilities where that framework applies. They are distinct from capital requirements. Their role differs by jurisdiction: the Federal Reserve reduced US reserve requirement ratios to zero in March 2020; the PBC&#39;s published policy framework includes required reserve ratios among its tools. These historical institutional examples illustrate why one country&#39;s textbook multiplier cannot automatically describe another country&#39;s operating system. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.federalreserve.gov/monetarypolicy/reservereq.htm\">Federal Reserve: Reserve requirements</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.pbc.gov.cn/en/3688110/3688175/2025080817533447505/2019011416430551874.pdf\">PBC: China&#39;s Monetary Policy Framework, December 2018</a>"
+  },
+  {
+    "id": "module-4-027",
+    "en": "Hypothetical illustration: on an unchanged eligible deposit base of 100 million CU, lowering a reserve ratio from 10% to 8% reduces the required amount by 2 million CU. It changes a regulatory constraint. It does not prove that exactly 2 million CU will be lent, or that lending will rise by a fixed multiple. Loan demand, capital, risk, and the rest of the policy framework still matter."
+  },
+  {
+    "id": "module-4-028",
+    "en": "<strong>Quantitative easing, or QE,</strong> uses central bank asset purchases financed with central bank money to influence financial conditions. Purchases can affect longer-term yields and investors&#39; portfolio choices. If a central bank buys a bond from a non-bank investor, the investor exchanges the bond for a deposit and the banking system receives reserves. If the seller is a bank, the bank exchanges an asset for reserves. QE is an asset transaction; it does not guarantee equivalent new spending or bank lending. <strong>Quantitative tightening</strong> reduces holdings through repayments or sales under the program&#39;s terms. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.bankofengland.co.uk/monetary-policy/quantitative-easing\">Bank of England: Quantitative easing</a>"
+  },
+  {
+    "id": "module-4-029",
+    "en": "Liquidity support supplies temporary financing to eligible institutions under relevant rules. Whether and how public authorities resolve an insolvent institution is a separate institutional question. Always identify the actual instrument and recipient before labeling every intervention “money printing.”"
+  },
+  {
+    "id": "module-4-030",
+    "en": "4.6 Debt sustainability is a path, not one number"
+  },
+  {
+    "id": "module-4-031",
+    "en": "A government owing 100 billion CU in an economy producing 200 billion CU annually has a 50% debt-to-GDP ratio. If debt rises to 105 billion but nominal GDP rises to 214 billion, the ratio falls to about 49.1%. Debt increased in currency terms while its ratio to annual output fell."
+  },
+  {
+    "id": "module-4-032",
+    "en": "Interest rates, growth, existing debt, and the primary budget balance all influence debt dynamics. Currency denomination, maturity, refinancing access, and contingent liabilities also matter when judging the risks. A government borrowing in a currency it cannot issue faces constraints different from a sovereign issuing its own currency. Own-currency borrowing still faces real-resource, inflation, credibility, and institutional constraints. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imf.org/en/Blogs/Articles/2024/03/28/the-fiscal-and-financial-risks-of-a-high-debt-slow-growth-world\">IMF: The fiscal and financial risks of a high-debt, slow-growth world</a>"
+  },
+  {
+    "id": "module-4-033",
+    "en": "Original simplified path: start with 100 billion CU of debt and 200 billion CU of GDP. At 4% average interest, interest costs 4 billion. With a 1 billion primary surplus, borrowing adds a net 3 billion, producing debt of 103 billion. If nominal GDP grows 5% to 210 billion, debt-to-GDP becomes approximately 49.0%. Changing growth, interest, or the primary balance changes the path; an apparently comfortable ratio today is not a permanent guarantee."
+  },
+  {
+    "id": "module-4-034",
+    "en": "4.7 Misconceptions to clear from the map"
+  },
+  {
+    "id": "module-4-035",
+    "en": "<strong>“The government and central bank do the same job.”</strong> Their instruments, decisions, and legal responsibilities differ, even when policies interact."
+  },
+  {
+    "id": "module-4-036",
+    "en": "<strong>“A rate cut guarantees more jobs or higher asset prices.”</strong> Financing terms, expectations, demand, supply, and risk determine the response."
+  },
+  {
+    "id": "module-4-037",
+    "en": "<strong>“A smaller inflation rate means prices returned to their old level.”</strong> If a basket rises from 100 to 108 and then by 3%, it becomes 111.24. Prices are still rising, more slowly."
+  },
+  {
+    "id": "module-4-038",
+    "en": "<strong>“One debt ratio tells us whether a government is safe.”</strong> Payment timing, interest costs, currency, revenue, and future conditions are necessary context."
+  },
+  {
+    "id": "module-4-039",
+    "en": "4.8 Check yourself"
+  },
+  {
+    "id": "module-4-040",
+    "en": "<strong>Question 1.</strong> Revenue is 500 million CU, non-interest spending is 530 million, and interest is 20 million. What are the primary and overall deficits?"
+  },
+  {
+    "id": "module-4-041",
+    "en": "<strong>Answer.</strong> The primary deficit is 30 million CU; the overall deficit is 50 million CU. Outstanding debt is a separate stock."
+  },
+  {
+    "id": "module-4-042",
+    "en": "<strong>Question 2.</strong> A policy rate falls, but your loan is fixed for another three years. Must your required payment immediately fall?"
+  },
+  {
+    "id": "module-4-043",
+    "en": "<strong>Answer.</strong> No. Contract terms govern your payment. New loan offers, refinancing options, and other economic conditions may change, but a policy announcement does not rewrite an existing fixed-rate agreement."
+  },
+  {
+    "id": "module-4-044",
+    "en": "<strong>Question 3.</strong> A government&#39;s debt rises from 80 to 84 billion CU while GDP rises from 100 to 108 billion. Did its debt-to-GDP ratio rise?"
+  },
+  {
+    "id": "module-4-045",
+    "en": "<strong>Answer.</strong> No. It fell from 80% to about 77.8%. This answers an arithmetic question, not the complete sustainability question."
+  },
+  {
+    "id": "module-4-046",
+    "en": "<strong>Region unlocked when:</strong> you can identify a policy instrument, trace its possible transmission, name one reason the transmission might weaken, and explain who is likely to feel the effect first."
+  }
+]
